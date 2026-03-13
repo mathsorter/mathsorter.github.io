@@ -28,214 +28,214 @@ const questionBank = [
     // Non-linear Simultaneous Equations - Parabola & Line (y = ...)
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = x^2\<br>\y = 2x + 3\",
+        content: "Solve the simultaneous equations:<br>\\( y = x^2 \\)<br>\\( y = 2x + 3 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = x^2 - 4\<br>\y = 3x\",
+        content: "Solve the simultaneous equations:<br>\\( y = x^2 - 4 \\)<br>\\( y = 3x \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = x^2 + 2x\<br>\y = x + 6\",
+        content: "Solve the simultaneous equations:<br>\\( y = x^2 + 2x \\)<br>\\( y = x + 6 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = x^2 - x - 2\<br>\y = 2x + 2\",
+        content: "Solve the simultaneous equations:<br>\\( y = x^2 - x - 2 \\)<br>\\( y = 2x + 2 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = 2x^2\<br>\y = 3x + 2\",
+        content: "Solve the simultaneous equations:<br>\\( y = 2x^2 \\)<br>\\( y = 3x + 2 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
 
     // Non-linear Simultaneous Equations - Circle & Line (Pre-arranged)
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 25\<br>\y = x + 1\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 25 \\)<br>\\( y = x + 1 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 10\<br>\y = 2x - 5\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 10 \\)<br>\\( y = 2x - 5 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 13\<br>\x = y + 1\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 13 \\)<br>\\( x = y + 1 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 20\<br>\y = x + 2\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 20 \\)<br>\\( y = x + 2 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 17\<br>\y = x - 3\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 17 \\)<br>\\( y = x - 3 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
 
     // Non-linear Simultaneous Equations - Rearranging Required
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 5\<br>\x + y = 3\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 5 \\)<br>\\( x + y = 3 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 25\<br>\x - y = 7\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 25 \\)<br>\\( x - y = 7 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y^2 = 34\<br>\x + y = 8\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y^2 = 34 \\)<br>\\( x + y = 8 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\xy = 12\<br>\x + y = 7\",
+        content: "Solve the simultaneous equations:<br>\\( xy = 12 \\)<br>\\( x + y = 7 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\xy = 8\<br>\2x + y = 8\",
+        content: "Solve the simultaneous equations:<br>\\( xy = 8 \\)<br>\\( 2x + y = 8 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
 
     // Non-linear Simultaneous Equations - Advanced Forms
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 - y^2 = 9\<br>\x - y = 1\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 - y^2 = 9 \\)<br>\\( x - y = 1 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + 2y^2 = 18\<br>\x + y = 3\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + 2y^2 = 18 \\)<br>\\( x + y = 3 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\2x^2 - y^2 = 7\<br>\2x - y = 1\",
+        content: "Solve the simultaneous equations:<br>\\( 2x^2 - y^2 = 7 \\)<br>\\( 2x - y = 1 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\xy + y^2 = 10\<br>\x - y = 3\",
+        content: "Solve the simultaneous equations:<br>\\( xy + y^2 = 10 \\)<br>\\( x - y = 3 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x^2 + y = 11\<br>\x + y = 5\",
+        content: "Solve the simultaneous equations:<br>\\( x^2 + y = 11 \\)<br>\\( x + y = 5 \\)",
         topic: "Non-linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x + y = 10\<br>\x - y = 2\",
+        content: "Solve the simultaneous equations:<br>\\( x + y = 10 \\)<br>\\( x - y = 2 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\2x + y = 11\<br>\x - y = 4\",
+        content: "Solve the simultaneous equations:<br>\\( 2x + y = 11 \\)<br>\\( x - y = 4 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\3x + 2y = 16\<br>\x - 2y = 0\",
+        content: "Solve the simultaneous equations:<br>\\( 3x + 2y = 16 \\)<br>\\( x - 2y = 0 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\4x + 3y = 18\<br>\x - 3y = -3\",
+        content: "Solve the simultaneous equations:<br>\\( 4x + 3y = 18 \\)<br>\\( x - 3y = -3 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\5x + y = 17\<br>\2x + y = 8\",
+        content: "Solve the simultaneous equations:<br>\\( 5x + y = 17 \\)<br>\\( 2x + y = 8 \\)",
         topic: "Linear Simultaneous Equations"
     },
 
     // Linear Simultaneous Equations - Scale One Equation
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x + 2y = 8\<br>\2x + 3y = 14\",
+        content: "Solve the simultaneous equations:<br>\\( x + 2y = 8 \\)<br>\\( 2x + 3y = 14 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\3x + y = 13\<br>\2x + 4y = 22\",
+        content: "Solve the simultaneous equations:<br>\\( 3x + y = 13 \\)<br>\\( 2x + 4y = 22 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\5x - 2y = 16\<br>\x + 4y = 12\",
+        content: "Solve the simultaneous equations:<br>\\( 5x - 2y = 16 \\)<br>\\( x + 4y = 12 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\4x + 3y = 27\<br>\2x - y = 1\",
+        content: "Solve the simultaneous equations:<br>\\( 4x + 3y = 27 \\)<br>\\( 2x - y = 1 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\2x + 5y = 24\<br>\4x + 3y = 20\",
+        content: "Solve the simultaneous equations:<br>\\( 2x + 5y = 24 \\)<br>\\( 4x + 3y = 20 \\)",
         topic: "Linear Simultaneous Equations"
     },
 
     // Linear Simultaneous Equations - Scale Both Equations
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\2x + 3y = 13\<br>\3x + 2y = 12\",
+        content: "Solve the simultaneous equations:<br>\\( 2x + 3y = 13 \\)<br>\\( 3x + 2y = 12 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\3x + 4y = 18\<br>\4x + 5y = 23\",
+        content: "Solve the simultaneous equations:<br>\\( 3x + 4y = 18 \\)<br>\\( 4x + 5y = 23 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\5x - 2y = 11\<br>\3x + 3y = 15\",
+        content: "Solve the simultaneous equations:<br>\\( 5x - 2y = 11 \\)<br>\\( 3x + 3y = 15 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\4x - 3y = 17\<br>\3x + 4y = 19\",
+        content: "Solve the simultaneous equations:<br>\\( 4x - 3y = 17 \\)<br>\\( 3x + 4y = 19 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\7x + 2y = 23\<br>\2x + 5y = 11\",
+        content: "Solve the simultaneous equations:<br>\\( 7x + 2y = 23 \\)<br>\\( 2x + 5y = 11 \\)",
         topic: "Linear Simultaneous Equations"
     },
 
     // Linear Simultaneous Equations - Rearranging / Substitution
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y = 2x + 1\<br>\3x + y = 16\",
+        content: "Solve the simultaneous equations:<br>\\( y = 2x + 1 \\)<br>\\( 3x + y = 16 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\x = y + 4\<br>\2x + 3y = 23\",
+        content: "Solve the simultaneous equations:<br>\\( x = y + 4 \\)<br>\\( 2x + 3y = 23 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\2x = 3y - 1\<br>\5x - 2y = 14\",
+        content: "Solve the simultaneous equations:<br>\\( 2x = 3y - 1 \\)<br>\\( 5x - 2y = 14 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\y - x = 5\<br>\3y + 2x = 25\",
+        content: "Solve the simultaneous equations:<br>\\( y - x = 5 \\)<br>\\( 3y + 2x = 25 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
         type: 'text',
-        content: "Solve the simultaneous equations:<br>\4x = 10 - 2y\<br>\3x + 5y = 11\",
+        content: "Solve the simultaneous equations:<br>\\( 4x = 10 - 2y \\)<br>\\( 3x + 5y = 11 \\)",
         topic: "Linear Simultaneous Equations"
     },
     {
@@ -346,738 +346,738 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Show that \\\frac{10}{\\sqrt{5}}\ <br>can be written in the form \a\\sqrt{b}\ <br>where \a\ and \b\ are prime numbers.",
+        content: "Show that \\( \\frac{10}{\\sqrt{5}} \\) <br>can be written in the form \\( a\\sqrt{b} \\) <br>where \\( a \\) and \\( b \\) are prime numbers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{14}{3\\sqrt{7}}\ <br>can be written in the form \\\frac{a\\sqrt{b}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{14}{3\\sqrt{7}} \\) <br>can be written in the form \\( \\frac{a\\sqrt{b}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{6\\sqrt{2}}{\\sqrt{3}}\ <br>can be written in the form \a\\sqrt{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{6\\sqrt{2}}{\\sqrt{3}} \\) <br>can be written in the form \\( a\\sqrt{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{\\sqrt{12}}{\\sqrt{2}}\ <br>can be written in the form \\\sqrt{a}\ <br>where \a\ is an integer.",
+        content: "Show that \\( \\frac{\\sqrt{12}}{\\sqrt{2}} \\) <br>can be written in the form \\( \\sqrt{a} \\) <br>where \\( a \\) is an integer.",
         topic: "Rationalising Denominators"
     },
 
     // Rationalising Denominators - Binomials, Integer Numerator (Medium)
     {
         type: 'text',
-        content: "Show that \\\frac{3}{2 + \\sqrt{3}}\ <br>can be written in the form \a - b\\sqrt{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{3}{2 + \\sqrt{3}} \\) <br>can be written in the form \\( a - b\\sqrt{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{5}{4 - \\sqrt{11}}\ <br>can be written in the form \a + \\sqrt{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{5}{4 - \\sqrt{11}} \\) <br>can be written in the form \\( a + \\sqrt{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{4}{3 + \\sqrt{5}}\ <br>can be written in the form \a - \\sqrt{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{4}{3 + \\sqrt{5}} \\) <br>can be written in the form \\( a - \\sqrt{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{12}{5 - \\sqrt{7}}\ <br>can be written in the form \\\frac{a + b\\sqrt{c}}{d}\ <br>where \a, b, c,\ and \d\ are integers.",
+        content: "Show that \\( \\frac{12}{5 - \\sqrt{7}} \\) <br>can be written in the form \\( \\frac{a + b\\sqrt{c}}{d} \\) <br>where \\( a, b, c, \\) and \\( d \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{2}{6 - 3\\sqrt{2}}\ <br>can be written in the form \\\frac{a + \\sqrt{a}}{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{2}{6 - 3\\sqrt{2}} \\) <br>can be written in the form \\( \\frac{a + \\sqrt{a}}{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{8}{3 - \\sqrt{5}}\ <br>can be written in the form \a + b\\sqrt{5}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{8}{3 - \\sqrt{5}} \\) <br>can be written in the form \\( a + b\\sqrt{5} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
 
     // Rationalising Denominators - Surds on Top and Bottom (Hard)
     {
         type: 'text',
-        content: "Show that \\\frac{\\sqrt{2}}{1 + \\sqrt{2}}\ <br>can be written in the form \a - \\sqrt{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{\\sqrt{2}}{1 + \\sqrt{2}} \\) <br>can be written in the form \\( a - \\sqrt{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{1 + \\sqrt{3}}{2 - \\sqrt{3}}\ <br>can be written in the form \a + b\\sqrt{3}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{1 + \\sqrt{3}}{2 - \\sqrt{3}} \\) <br>can be written in the form \\( a + b\\sqrt{3} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{3 - \\sqrt{5}}{3 + \\sqrt{5}}\ <br>can be written in the form \\\frac{a - b\\sqrt{5}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{3 - \\sqrt{5}}{3 + \\sqrt{5}} \\) <br>can be written in the form \\( \\frac{a - b\\sqrt{5}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{4 + \\sqrt{2}}{5 - 2\\sqrt{2}}\ <br>can be written in the form \\\frac{a + b\\sqrt{2}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{4 + \\sqrt{2}}{5 - 2\\sqrt{2}} \\) <br>can be written in the form \\( \\frac{a + b\\sqrt{2}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{\\sqrt{7} - 2}{\\sqrt{7} + 2}\ <br>can be written in the form \\\frac{a - b\\sqrt{7}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{\\sqrt{7} - 2}{\\sqrt{7} + 2} \\) <br>can be written in the form \\( \\frac{a - b\\sqrt{7}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
 
     // Rationalising Denominators - Advanced / Mixed Surds (Challenge)
     {
         type: 'text',
-        content: "Show that \\\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}}\ <br>can be written in the form \\\frac{a + b\\sqrt{10}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}} \\) <br>can be written in the form \\( \\frac{a + b\\sqrt{10}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{2\\sqrt{3} - 1}{3\\sqrt{3} + 2}\ <br>can be written in the form \\\frac{a - b\\sqrt{3}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{2\\sqrt{3} - 1}{3\\sqrt{3} + 2} \\) <br>can be written in the form \\( \\frac{a - b\\sqrt{3}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{5\\sqrt{2} + 3}{2\\sqrt{2} - 1}\ <br>can be written in the form \\\frac{a + b\\sqrt{2}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{5\\sqrt{2} + 3}{2\\sqrt{2} - 1} \\) <br>can be written in the form \\( \\frac{a + b\\sqrt{2}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{(2 + \\sqrt{3})^2}{4 - \\sqrt{3}}\ <br>can be written in the form \\\frac{a + b\\sqrt{3}}{c}\ <br>where \a, b,\ and \c\ are integers.",
+        content: "Show that \\( \\frac{(2 + \\sqrt{3})^2}{4 - \\sqrt{3}} \\) <br>can be written in the form \\( \\frac{a + b\\sqrt{3}}{c} \\) <br>where \\( a, b, \\) and \\( c \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Show that \\\frac{\\sqrt{12} - \\sqrt{3}}{\\sqrt{8} + \\sqrt{2}}\ <br>can be written in the form \\\frac{\\sqrt{a}}{b}\ <br>where \a\ and \b\ are integers.",
+        content: "Show that \\( \\frac{\\sqrt{12} - \\sqrt{3}}{\\sqrt{8} + \\sqrt{2}} \\) <br>can be written in the form \\( \\frac{\\sqrt{a}}{b} \\) <br>where \\( a \\) and \\( b \\) are integers.",
         topic: "Rationalising Denominators"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{3x^2}{4y} \\times \\frac{8y^2}{9x}\",
+        content: "Simplify \\( \\frac{3x^2}{4y} \\times \\frac{8y^2}{9x} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{5a^3b}{2c} \\times \\frac{4c^2}{15ab^2}\",
+        content: "Simplify \\( \\frac{5a^3b}{2c} \\times \\frac{4c^2}{15ab^2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{x-2}{3x} \\times \\frac{6x^2}{x-2}\",
+        content: "Simplify \\( \\frac{x-2}{3x} \\times \\frac{6x^2}{x-2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{y+4}{y-1} \\times \\frac{y^2-1}{3y+12}\",
+        content: "Simplify \\( \\frac{y+4}{y-1} \\times \\frac{y^2-1}{3y+12} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{m^2+2m}{5} \\times \\frac{15}{m^2-4}\",
+        content: "Simplify \\( \\frac{m^2+2m}{5} \\times \\frac{15}{m^2-4} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{p^2-q^2}{p+q} \\times \\frac{p}{p-q}\",
+        content: "Simplify \\( \\frac{p^2-q^2}{p+q} \\times \\frac{p}{p-q} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{2x^2-8}{x^2-x-6} \\times \\frac{x-3}{x-2}\",
+        content: "Simplify \\( \\frac{2x^2-8}{x^2-x-6} \\times \\frac{x-3}{x-2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{a^2+6a+9}{a^2-9} \\times \\frac{a-3}{a+3}\",
+        content: "Simplify \\( \\frac{a^2+6a+9}{a^2-9} \\times \\frac{a-3}{a+3} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{4x^2-1}{2x^2+x} \\times \\frac{x}{2x-1}\",
+        content: "Simplify \\( \\frac{4x^2-1}{2x^2+x} \\times \\frac{x}{2x-1} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{n^2-5n+6}{n^2-4} \\times \\frac{n+2}{n-3}\",
+        content: "Simplify \\( \\frac{n^2-5n+6}{n^2-4} \\times \\frac{n+2}{n-3} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
 
     // Multiplying/Dividing Algebraic Fractions - Extra Division
     {
         type: 'text',
-        content: "Simplify \\\frac{7x^3}{2y} \\div \\frac{14x}{6y^2}\",
+        content: "Simplify \\( \\frac{7x^3}{2y} \\div \\frac{14x}{6y^2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{8a^2b^3}{3c} \\div \\frac{4ab^2}{9c^2}\",
+        content: "Simplify \\( \\frac{8a^2b^3}{3c} \\div \\frac{4ab^2}{9c^2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{x+5}{4} \\div \\frac{x+5}{8x}\",
+        content: "Simplify \\( \\frac{x+5}{4} \\div \\frac{x+5}{8x} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{m-3}{m^2} \\div \\frac{m^2-9}{m}\",
+        content: "Simplify \\( \\frac{m-3}{m^2} \\div \\frac{m^2-9}{m} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{y^2-16}{3y} \\div \\frac{y-4}{6y^2}\",
+        content: "Simplify \\( \\frac{y^2-16}{3y} \\div \\frac{y-4}{6y^2} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{p^2-25}{p^2+5p} \\div \\frac{p-5}{p}\",
+        content: "Simplify \\( \\frac{p^2-25}{p^2+5p} \\div \\frac{p-5}{p} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{x^2+7x+10}{x+2} \\div \\frac{x+5}{x-1}\",
+        content: "Simplify \\( \\frac{x^2+7x+10}{x+2} \\div \\frac{x+5}{x-1} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{2a^2-a-1}{a^2-1} \\div \\frac{2a+1}{a+1}\",
+        content: "Simplify \\( \\frac{2a^2-a-1}{a^2-1} \\div \\frac{2a+1}{a+1} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{n^2-n-12}{n^2-16} \\div \\frac{n+3}{n+4}\",
+        content: "Simplify \\( \\frac{n^2-n-12}{n^2-16} \\div \\frac{n+3}{n+4} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Simplify \\\frac{3x^2-12x}{x^2-x-12} \\div \\frac{3x}{x+3}\",
+        content: "Simplify \\( \\frac{3x^2-12x}{x^2-x-12} \\div \\frac{3x}{x+3} \\)",
         topic: "Multiplying/Dividing Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Given that \4^{k} = 8^{k-1}\ <br>Find the value of \k\.",
+        content: "Given that \\( 4^{k} = 8^{k-1} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \9^{k+1} = 27^k\ <br>Find the value of \k\.",
+        content: "Given that \\( 9^{k+1} = 27^k \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \25^{k-2} = 125^k\ <br>Find the value of \k\.",
+        content: "Given that \\( 25^{k-2} = 125^k \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \16^{k} = 64^{k-1}\ <br>Find the value of \k\.",
+        content: "Given that \\( 16^{k} = 64^{k-1} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \36^{k+1} = 216^k\ <br>Find the value of \k\.",
+        content: "Given that \\( 36^{k+1} = 216^k \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
 
     // Writing one value as a power of another - With Multiplication
     {
         type: 'text',
-        content: "Given that \8^{k+1} = 4 \\times 2^k\ <br>Find the value of \k\.",
+        content: "Given that \\( 8^{k+1} = 4 \\times 2^k \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \9^{k} = 27 \\times 3^{k-2}\ <br>Find the value of \k\.",
+        content: "Given that \\( 9^{k} = 27 \\times 3^{k-2} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \16^{k-1} = 8 \\times 4^k\ <br>Find the value of \k\.",
+        content: "Given that \\( 16^{k-1} = 8 \\times 4^k \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \125^{k-1} = 25 \\times 5^{2k}\ <br>Find the value of \k\.",
+        content: "Given that \\( 125^{k-1} = 25 \\times 5^{2k} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \32^k = 16 \\times 8^{k-2}\ <br>Find the value of \k\.",
+        content: "Given that \\( 32^k = 16 \\times 8^{k-2} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \100^k = 10 \\times 1000^{k-1}\ <br>Find the value of \k\.",
+        content: "Given that \\( 100^k = 10 \\times 1000^{k-1} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
 
     // Writing one value as a power of another - With Division
     {
         type: 'text',
-        content: "Given that \25^k = \\frac{125}{5^k}\ <br>Find the value of \k\.",
+        content: "Given that \\( 25^k = \\frac{125}{5^k} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \4^{k+2} = \\frac{32}{2^k}\ <br>Find the value of \k\.",
+        content: "Given that \\( 4^{k+2} = \\frac{32}{2^k} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \27^k = \\frac{9^{k+1}}{3}\ <br>Find the value of \k\.",
+        content: "Given that \\( 27^k = \\frac{9^{k+1}}{3} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \\\frac{27^k}{9} = 81^{k-1}\ <br>Find the value of \k\.",
+        content: "Given that \\( \\frac{27^k}{9} = 81^{k-1} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
 
     // Writing one value as a power of another - Advanced/Negative Indices
     {
         type: 'text',
-        content: "Given that \8^k = \\frac{1}{4^{k-3}}\ <br>Find the value of \k\.",
+        content: "Given that \\( 8^k = \\frac{1}{4^{k-3}} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \\\frac{1}{9^k} = 27^{k+2}\ <br>Find the value of \k\.",
+        content: "Given that \\( \\frac{1}{9^k} = 27^{k+2} \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \2^k \\times 8^{k-1} = 16\ <br>Find the value of \k\.",
+        content: "Given that \\( 2^k \\times 8^{k-1} = 16 \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \3^{k+2} \\times 9^k = 81\ <br>Find the value of \k\.",
+        content: "Given that \\( 3^{k+2} \\times 9^k = 81 \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Given that \8^{2k} = 4^{k+3} \\times 2\ <br>Find the value of \k\.",
+        content: "Given that \\( 8^{2k} = 4^{k+3} \\times 2 \\) <br>Find the value of \\( k \\).",
         topic: "Writing one value as a power of another"
     },
     {
         type: 'text',
-        content: "Write \\\frac{x}{3} + \\frac{x}{4}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x}{3} + \\frac{x}{4} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2x}{5} - \\frac{x}{2}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2x}{5} - \\frac{x}{2} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{x+2}{3} + \\frac{x-1}{4}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x+2}{3} + \\frac{x-1}{4} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2x-3}{5} - \\frac{x+1}{2}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2x-3}{5} - \\frac{x+1}{2} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
 
     // Adding/Subtracting Algebraic Fractions - Algebraic Denominators (Single Terms)
     {
         type: 'text',
-        content: "Write \\\frac{3}{x} + \\frac{5}{2x}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{3}{x} + \\frac{5}{2x} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{4}{3x} - \\frac{1}{x}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{4}{3x} - \\frac{1}{x} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2}{x^2} + \\frac{5}{x}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2}{x^2} + \\frac{5}{x} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{5}{2y} - \\frac{3}{4y}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{5}{2y} - \\frac{3}{4y} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
 
     // Adding/Subtracting Algebraic Fractions - Algebraic Denominators (Binomials)
     {
         type: 'text',
-        content: "Write \\\frac{3}{x+2} + \\frac{4}{x-1}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{3}{x+2} + \\frac{4}{x-1} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{5}{x-3} - \\frac{2}{x+4}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{5}{x-3} - \\frac{2}{x+4} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2}{2x+1} + \\frac{3}{x-2}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2}{2x+1} + \\frac{3}{x-2} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{4}{3x-2} - \\frac{1}{x+5}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{4}{3x-2} - \\frac{1}{x+5} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
 
     // Adding/Subtracting Algebraic Fractions - Algebra in Both Numerator and Denominator
     {
         type: 'text',
-        content: "Write \\\frac{x}{x+1} + \\frac{2}{x-3}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x}{x+1} + \\frac{2}{x-3} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{x+1}{x-2} - \\frac{x}{x+3}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x+1}{x-2} - \\frac{x}{x+3} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2x}{x+4} + \\frac{x}{x-1}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2x}{x+4} + \\frac{x}{x-1} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{x-2}{x+2} - \\frac{x+1}{x-3}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x-2}{x+2} - \\frac{x+1}{x-3} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
 
     // Adding/Subtracting Algebraic Fractions - Advanced (Factorising Denominators First)
     {
         type: 'text',
-        content: "Write \\\frac{3}{x^2-9} + \\frac{2}{x-3}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{3}{x^2-9} + \\frac{2}{x-3} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{5}{x^2-x-6} - \\frac{2}{x-3}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{5}{x^2-x-6} - \\frac{2}{x-3} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{x}{x^2-4} + \\frac{1}{x+2}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{x}{x^2-4} + \\frac{1}{x+2} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Write \\\frac{2x}{x^2-1} - \\frac{3}{x-1}\ as a single fraction in its simplest form.",
+        content: "Write \\( \\frac{2x}{x^2-1} - \\frac{3}{x-1} \\) as a single fraction in its simplest form.",
         topic: "Adding/Subtracting Algebraic Fractions"
     },
     {
         type: 'text',
-        content: "Factorise \x^2 - 16\",
+        content: "Factorise \\( x^2 - 16 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \y^2 - 49\",
+        content: "Factorise \\( y^2 - 49 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \a^2 - 81\",
+        content: "Factorise \\( a^2 - 81 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \m^2 - 1\",
+        content: "Factorise \\( m^2 - 1 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \p^2 - 144\",
+        content: "Factorise \\( p^2 - 144 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \k^2 - 121\",
+        content: "Factorise \\( k^2 - 121 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \w^2 - 64\",
+        content: "Factorise \\( w^2 - 64 \\)",
         topic: "Difference of Two Squares"
     },
 
     // Difference of Two Squares - Non-Monic (Perfect Squares)
     {
         type: 'text',
-        content: "Factorise \4x^2 - 9\",
+        content: "Factorise \\( 4x^2 - 9 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \25y^2 - 16\",
+        content: "Factorise \\( 25y^2 - 16 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \9a^2 - 64\",
+        content: "Factorise \\( 9a^2 - 64 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \36m^2 - 1\",
+        content: "Factorise \\( 36m^2 - 1 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \49p^2 - 100\",
+        content: "Factorise \\( 49p^2 - 100 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \64k^2 - 9\",
+        content: "Factorise \\( 64k^2 - 9 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \81w^2 - 4\",
+        content: "Factorise \\( 81w^2 - 4 \\)",
         topic: "Difference of Two Squares"
     },
 
     // Difference of Two Squares - Common Factor First
     {
         type: 'text',
-        content: "Factorise \2x^2 - 18\",
+        content: "Factorise \\( 2x^2 - 18 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \3y^2 - 75\",
+        content: "Factorise \\( 3y^2 - 75 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \5a^2 - 20\",
+        content: "Factorise \\( 5a^2 - 20 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \8m^2 - 50\",
+        content: "Factorise \\( 8m^2 - 50 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \12p^2 - 27\",
+        content: "Factorise \\( 12p^2 - 27 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Factorise \50k^2 - 8\",
+        content: "Factorise \\( 50k^2 - 8 \\)",
         topic: "Difference of Two Squares"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\frac{2x - 7}{3x + 4}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{2x - 7}{3x + 4} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \q\ the subject of \p = \\frac{3q + 1}{q - 2}\",
+        content: "Make \\( q \\) the subject of \\( p = \\frac{3q + 1}{q - 2} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \b\ the subject of \a = \\frac{b - c}{b + c}\",
+        content: "Make \\( b \\) the subject of \\( a = \\frac{b - c}{b + c} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \R_1\ the subject of \\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}\",
+        content: "Make \\( R_1 \\) the subject of \\( \\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \u\ the subject of \\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}\",
+        content: "Make \\( u \\) the subject of \\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\)",
         topic: "Changing the Subject"
     },
 
     // Changing the Subject - Nested Roots and Powers
     {
         type: 'text',
-        content: "Make \g\ the subject of \T = 2\\pi\\sqrt{\\frac{l}{g}}\",
+        content: "Make \\( g \\) the subject of \\( T = 2\\pi\\sqrt{\\frac{l}{g}} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \P = \\sqrt{\\frac{x+y}{x-y}}\",
+        content: "Make \\( x \\) the subject of \\( P = \\sqrt{\\frac{x+y}{x-y}} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \n\ the subject of \m = \\sqrt{\\frac{n - 3}{n + 2}}\",
+        content: "Make \\( n \\) the subject of \\( m = \\sqrt{\\frac{n - 3}{n + 2}} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\left(\\frac{2x+1}{x-3}\\right)^2\",
+        content: "Make \\( x \\) the subject of \\( y = \\left(\\frac{2x+1}{x-3}\\right)^2 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\frac{a}{\\sqrt{x-b}}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{a}{\\sqrt{x-b}} \\)",
         topic: "Changing the Subject"
     },
 
     // Changing the Subject - Squares, Cubes, and Multiple Occurrences
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\frac{x^2 + 1}{x^2 - 1}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{x^2 + 1}{x^2 - 1} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \p\ the subject of \q = \\frac{p^2 + 4}{2p^2 - 3}\",
+        content: "Make \\( p \\) the subject of \\( q = \\frac{p^2 + 4}{2p^2 - 3} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \r\ the subject of \V = \\frac{1}{3}\\pi r^2 h\",
+        content: "Make \\( r \\) the subject of \\( V = \\frac{1}{3}\\pi r^2 h \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\sqrt[3]{a x^2 + b}\",
+        content: "Make \\( x \\) the subject of \\( y = \\sqrt[3]{a x^2 + b} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \d\ the subject of \F = \\frac{G m_1 m_2}{d^2}\",
+        content: "Make \\( d \\) the subject of \\( F = \\frac{G m_1 m_2}{d^2} \\)",
         topic: "Changing the Subject"
     },
 
     // Changing the Subject - Advanced Physics/Geometry Formulas
     {
         type: 'text',
-        content: "Make \h\ the subject of \A = 2\\pi r^2 + 2\\pi r h\",
+        content: "Make \\( h \\) the subject of \\( A = 2\\pi r^2 + 2\\pi r h \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \u\ the subject of \v = \\sqrt{u^2 + 2as}\",
+        content: "Make \\( u \\) the subject of \\( v = \\sqrt{u^2 + 2as} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \c\ the subject of \E = mc^2\",
+        content: "Make \\( c \\) the subject of \\( E = mc^2 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \\\cos(C)\ the subject of \c^2 = a^2 + b^2 - 2ab \\cos(C)\",
+        content: "Make \\( \\cos(C) \\) the subject of \\( c^2 = a^2 + b^2 - 2ab \\cos(C) \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \\\sin(\\theta)\ the subject of \t = \\frac{2v \\sin(\\theta)}{g}\",
+        content: "Make \\( \\sin(\\theta) \\) the subject of \\( t = \\frac{2v \\sin(\\theta)}{g} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = 3x + 2\",
+        content: "Make \\( x \\) the subject of \\( y = 3x + 2 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \a\ the subject of \v = u + at\",
+        content: "Make \\( a \\) the subject of \\( v = u + at \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \m\ the subject of \y = mx + c\",
+        content: "Make \\( m \\) the subject of \\( y = mx + c \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \c\ the subject of \A = \frac{c}{y} - 5z\",
+        content: "Make \\( c \\) the subject of \\( A = \\frac{c}{y} - 5z \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \p\ the subject of \q = 4(p - 3)\",
+        content: "Make \\( p \\) the subject of \\( q = 4(p - 3) \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \frac{x+1}{3}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{x+1}{3} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \t\ the subject of \s = \frac{1}{2}(u+v)t\",
+        content: "Make \\( t \\) the subject of \\( s = \\frac{1}{2}(u+v)t \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \frac{2x - 3}{5}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{2x - 3}{5} \\)",
         topic: "Changing the Subject"
     },
 
     // Changing the Subject - Squares & Roots
     {
         type: 'text',
-        content: "Make \r\ the subject of \A = \\pi r^2\",
+        content: "Make \\( r \\) the subject of \\( A = \\pi r^2 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \a\ the subject of \v^2 = u^2 + 2as\",
+        content: "Make \\( a \\) the subject of \\( v^2 = u^2 + 2as \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = x^2 + 5\",
+        content: "Make \\( x \\) the subject of \\( y = x^2 + 5 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \l\ the subject of \T = 2\\pi\\sqrt{\\frac{l}{g}}\",
+        content: "Make \\( l \\) the subject of \\( T = 2\\pi\\sqrt{\\frac{l}{g}} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \\sqrt{3x - 2}\",
+        content: "Make \\( x \\) the subject of \\( y = \\sqrt{3x - 2} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \b\ the subject of \a^2 = b^2 + c^2\",
+        content: "Make \\( b \\) the subject of \\( a^2 = b^2 + c^2 \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \r\ the subject of \V = \\frac{4}{3}\\pi r^3\",
+        content: "Make \\( r \\) the subject of \\( V = \\frac{4}{3}\\pi r^3 \\)",
         topic: "Changing the Subject"
     },
 
     // Changing the Subject - Variable Appears Twice (Advanced)
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \frac{x}{x+2}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{x}{x+2} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \p\ the subject of \q = \frac{p+1}{p-1}\",
+        content: "Make \\( p \\) the subject of \\( q = \\frac{p+1}{p-1} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \x\ the subject of \y = \frac{ax + b}{cx + d}\",
+        content: "Make \\( x \\) the subject of \\( y = \\frac{ax + b}{cx + d} \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \m\ the subject of \F = \frac{Gm_1 m}{r^2} + ma\",
+        content: "Make \\( m \\) the subject of \\( F = \\frac{Gm_1 m}{r^2} + ma \\)",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make \t\ the subject of \v = \frac{t - 3}{t + 4}\",
+        content: "Make \\( t \\) the subject of \\( v = \\frac{t - 3}{t + 4} \\)",
         topic: "Changing the Subject"
     },
     {
@@ -2298,81 +2298,81 @@ const questionBank = [
     // Factorising Double Brackets (AC Method) - Positive Terms
     {
         type: 'text',
-        content: "Factorise \2x^2 + 5x + 3\",
+        content: "Factorise \\( 2x^2 + 5x + 3 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \3x^2 + 7x + 2\",
+        content: "Factorise \\( 3x^2 + 7x + 2 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \5x^2 + 11x + 2\",
+        content: "Factorise \\( 5x^2 + 11x + 2 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \2x^2 + 7x + 6\",
+        content: "Factorise \\( 2x^2 + 7x + 6 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \3x^2 + 8x + 4\",
+        content: "Factorise \\( 3x^2 + 8x + 4 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \4x^2 + 8x + 3\",
+        content: "Factorise \\( 4x^2 + 8x + 3 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
 
     // Factorising Double Brackets (AC Method) - Mix of Positives and Negatives
     {
         type: 'text',
-        content: "Factorise \2x^2 - x - 1\",
+        content: "Factorise \\( 2x^2 - x - 1 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \3x^2 - 5x - 2\",
+        content: "Factorise \\( 3x^2 - 5x - 2 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \5x^2 - 13x - 6\",
+        content: "Factorise \\( 5x^2 - 13x - 6 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \2x^2 - 7x + 5\",
+        content: "Factorise \\( 2x^2 - 7x + 5 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \3x^2 - 10x + 8\",
+        content: "Factorise \\( 3x^2 - 10x + 8 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \4x^2 - 12x + 5\",
+        content: "Factorise \\( 4x^2 - 12x + 5 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
 
     // Factorising Double Brackets (AC Method) - Trickier Composite Coefficients
     {
         type: 'text',
-        content: "Factorise \6x^2 + 7x - 3\",
+        content: "Factorise \\( 6x^2 + 7x - 3 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \6x^2 - 11x - 10\",
+        content: "Factorise \\( 6x^2 - 11x - 10 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
-        content: "Factorise \8x^2 + 10x - 3\",
+        content: "Factorise \\( 8x^2 + 10x - 3 \\)",
         topic: "Factorising Double Brackets (AC Method)"
     },
     {
