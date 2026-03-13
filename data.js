@@ -346,7 +346,7 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Factorise: \( 4m^2 - 4m - 15 \)",
+        content: "Factorise: \\( 4m^2 - 4m - 15 \\)",
         topic: "Factorising Double Brackets"
     },
     {
