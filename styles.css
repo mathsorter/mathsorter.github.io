@@ -100,6 +100,8 @@ button:disabled {
     user-select: none;
     min-width: 200px;
     text-align: center;
+    overflow-x: auto;
+    touch-action: none;
 }
 
 #current-question:active {
@@ -159,6 +161,7 @@ button:disabled {
     margin-bottom: 10px;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
+    overflow-x: auto;
 }
 
 .review-feedback {
@@ -174,4 +177,9 @@ button:disabled {
 
 .review-feedback strong {
     color: var(--primary);
+}
+
+#restart-btn {
+    display: block;
+    margin: 30px auto 0 auto;
 }
