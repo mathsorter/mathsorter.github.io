@@ -1,5 +1,6 @@
 // State variables
 let selectedTopics = [];
+let incorrectQuestions = [];
 let currentGameQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
@@ -94,22 +95,20 @@ function startGame() {
 
     currentGameQuestions = [];
     
-    // Check if we have enough unique questions
     if (availableQuestions.length >= TOTAL_QUESTIONS) {
-        // Take the first 15 unique, shuffled questions
         currentGameQuestions = availableQuestions.slice(0, TOTAL_QUESTIONS);
     } else {
-        // If they pick a topic with fewer than 15 questions, loop through them
         for (let i = 0; i < TOTAL_QUESTIONS; i++) {
             currentGameQuestions.push(availableQuestions[i % availableQuestions.length]);
         }
-        // Shuffle one more time so any repeating questions aren't in a predictable pattern
         currentGameQuestions = shuffleArray(currentGameQuestions);
     }
 
-    // Reset stats
+    // Reset stats & mistakes
     score = 0;
     currentQuestionIndex = 0;
+    incorrectQuestions = []; // Reset the review list!
+    
     document.getElementById('score').textContent = score;
     document.getElementById('restart-btn').classList.add('hidden');
 
@@ -192,6 +191,12 @@ function handleDrop(droppedTopic) {
         score++;
     } else {
         score--;
+        // Save the mistake for the end screen!
+        incorrectQuestions.push({
+            question: currentGameQuestions[currentQuestionIndex],
+            guessed: droppedTopic,
+            correct: actualTopic
+        });
     }
     
     document.getElementById('score').textContent = score;
@@ -200,10 +205,43 @@ function handleDrop(droppedTopic) {
 }
 
 function endGame() {
-    document.getElementById('current-question').innerHTML = "Game Over! Final Score: " + score;
-    document.getElementById('current-question').draggable = false;
+    const qElement = document.getElementById('current-question');
+    qElement.draggable = false;
     document.getElementById('drop-zones').innerHTML = '';
     document.getElementById('restart-btn').classList.remove('hidden');
+
+    // Build the End Screen HTML
+    let endMessage = `<h3>Game Over! Final Score: ${score}</h3>`;
+
+    if (incorrectQuestions.length === 0) {
+        endMessage += `<p>Perfect! You categorised everything correctly.</p>`;
+    } else {
+        endMessage += `<h4 style="margin-top: 20px;">Questions to Review:</h4><ul class="review-list">`;
+        
+        incorrectQuestions.forEach(item => {
+            let qText = item.question.type === 'image' 
+                ? `<img src="${item.question.content}" style="max-height: 80px;">` 
+                : item.question.content;
+                
+            endMessage += `
+                <li>
+                    <div class="review-q">${qText}</div>
+                    <div class="review-feedback">
+                        ❌ You guessed: <span>${item.guessed}</span> <br>
+                        ✅ Correct topic: <strong>${item.correct}</strong>
+                    </div>
+                </li>`;
+        });
+        
+        endMessage += `</ul>`;
+    }
+
+    qElement.innerHTML = endMessage;
+
+    // Tell MathJax to render all the math in our new review list!
+    if (window.MathJax) {
+        MathJax.typesetPromise([qElement]);
+    }
 }
 
 function resetToSetup() {
