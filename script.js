@@ -69,6 +69,17 @@ function updateStartButton() {
 }
 
 // Game Logic
+// The Fisher-Yates Shuffle Algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        // Swap elements
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Updated Game Logic
 function startGame() {
     // Filter question bank based on selected topics
     let availableQuestions = questionBank.filter(q => selectedTopics.includes(q.topic));
@@ -78,11 +89,22 @@ function startGame() {
         return;
     }
 
-    // Build a list of 15 questions (allow duplicates if pool is small)
+    // Shuffle the entire pool of available questions first
+    availableQuestions = shuffleArray(availableQuestions);
+
     currentGameQuestions = [];
-    for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-        const randomQ = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-        currentGameQuestions.push(randomQ);
+    
+    // Check if we have enough unique questions
+    if (availableQuestions.length >= TOTAL_QUESTIONS) {
+        // Take the first 15 unique, shuffled questions
+        currentGameQuestions = availableQuestions.slice(0, TOTAL_QUESTIONS);
+    } else {
+        // If they pick a topic with fewer than 15 questions, loop through them
+        for (let i = 0; i < TOTAL_QUESTIONS; i++) {
+            currentGameQuestions.push(availableQuestions[i % availableQuestions.length]);
+        }
+        // Shuffle one more time so any repeating questions aren't in a predictable pattern
+        currentGameQuestions = shuffleArray(currentGameQuestions);
     }
 
     // Reset stats
@@ -93,7 +115,7 @@ function startGame() {
 
     // Switch screens
     document.getElementById('setup-screen').classList.remove('active');
-    document.getElementById('game-screen').classList.active = true;
+    document.getElementById('game-screen').classList.add('active');
     document.getElementById('game-screen').style.display = 'block';
     document.getElementById('setup-screen').style.display = 'none';
 
