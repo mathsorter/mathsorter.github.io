@@ -28,8 +28,10 @@ function initSetup() {
 function renderTopics(topicsToRender) {
     topicListDiv.innerHTML = '';
     topicsToRender.forEach(topic => {
-        const div = document.createElement('div');
-        div.className = 'topic-item';
+        // Change the main container to a <label> instead of a <div>
+        const labelContainer = document.createElement('label');
+        labelContainer.className = 'topic-item';
+        labelContainer.style.cursor = 'pointer'; // Makes it obvious it's clickable
         
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
@@ -51,12 +53,13 @@ function renderTopics(topicsToRender) {
             updateStartButton();
         });
 
-        const label = document.createElement('label');
-        label.textContent = topic;
+        // Use a <span> for the text instead of a label, since the container is now the label
+        const spanText = document.createElement('span');
+        spanText.textContent = topic;
 
-        div.appendChild(checkbox);
-        div.appendChild(label);
-        topicListDiv.appendChild(div);
+        labelContainer.appendChild(checkbox);
+        labelContainer.appendChild(spanText);
+        topicListDiv.appendChild(labelContainer);
     });
 }
 
