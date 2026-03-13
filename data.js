@@ -2,12 +2,14 @@
 const allTopics = [
     "Completing the Square",
     "Factorising Double Brackets",
+    "Factorising Double Brackets (AC Method)"
     "Using the Quadratic Formula",
     "Differentiation",
     "Basic Laws of Indices",
     "Factorising Single Brackets",
     "Average Speed",
     "Changing the Subject",
+    "Difference of Two Squares",
     "Fractional & Negative Indices",
     "Expanding Single Brackets",
     "Pythagoras Theorem"
@@ -16,8 +18,217 @@ const allTopics = [
 // Add your questions here. 
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
-    // Average Speed - Standard & Conversions
-    // Changing the Subject - Linear & Basic Fractions
+    // Difference of Two Squares - Basic Monic
+    {
+        type: 'text',
+        content: "Factorise $x^2 - 16$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $y^2 - 49$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $a^2 - 81$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $m^2 - 1$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $p^2 - 144$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $k^2 - 121$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $w^2 - 64$",
+        topic: "Difference of Two Squares"
+    },
+
+    // Difference of Two Squares - Non-Monic (Perfect Squares)
+    {
+        type: 'text',
+        content: "Factorise $4x^2 - 9$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $25y^2 - 16$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $9a^2 - 64$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $36m^2 - 1$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $49p^2 - 100$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $64k^2 - 9$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $81w^2 - 4$",
+        topic: "Difference of Two Squares"
+    },
+
+    // Difference of Two Squares - Common Factor First
+    {
+        type: 'text',
+        content: "Factorise $2x^2 - 18$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $3y^2 - 75$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $5a^2 - 20$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $8m^2 - 50$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $12p^2 - 27$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Factorise $50k^2 - 8$",
+        topic: "Difference of Two Squares"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \\frac{2x - 7}{3x + 4}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $q$ the subject of $p = \\frac{3q + 1}{q - 2}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $b$ the subject of $a = \\frac{b - c}{b + c}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $R_1$ the subject of $\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $u$ the subject of $\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$",
+        topic: "Changing the Subject"
+    },
+
+    // Changing the Subject - Nested Roots and Powers
+    {
+        type: 'text',
+        content: "Make $g$ the subject of $T = 2\\pi\\sqrt{\\frac{l}{g}}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $P = \\sqrt{\\frac{x+y}{x-y}}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $n$ the subject of $m = \\sqrt{\\frac{n - 3}{n + 2}}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \\left(\\frac{2x+1}{x-3}\\right)^2$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \\frac{a}{\\sqrt{x-b}}$",
+        topic: "Changing the Subject"
+    },
+
+    // Changing the Subject - Squares, Cubes, and Multiple Occurrences
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \\frac{x^2 + 1}{x^2 - 1}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $p$ the subject of $q = \\frac{p^2 + 4}{2p^2 - 3}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $r$ the subject of $V = \\frac{1}{3}\\pi r^2 h$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \\sqrt[3]{a x^2 + b}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $d$ the subject of $F = \\frac{G m_1 m_2}{d^2}$",
+        topic: "Changing the Subject"
+    },
+
+    // Changing the Subject - Advanced Physics/Geometry Formulas
+    {
+        type: 'text',
+        content: "Make $h$ the subject of $A = 2\\pi r^2 + 2\\pi r h$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $u$ the subject of $v = \\sqrt{u^2 + 2as}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $c$ the subject of $E = mc^2$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $\\cos(C)$ the subject of $c^2 = a^2 + b^2 - 2ab \\cos(C)$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $\\sin(\\theta)$ the subject of $t = \\frac{2v \\sin(\\theta)}{g}$",
+        topic: "Changing the Subject"
+    },
     {
         type: 'text',
         content: "Make $x$ the subject of $y = 3x + 2$",
@@ -1290,52 +1501,132 @@ const questionBank = [
     {
         type: 'text',
         content: "Factorise: \\( 2x^2 + 5x + 3 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 3y^2 - 10y + 8 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 5p^2 + 13p - 6 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 4m^2 - 4m - 15 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 6t^2 + 11t + 4 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 2q^2 - 7q - 4 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 3a^2 + 14a - 5 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 8w^2 - 10w + 3 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Factorise: \\( 4n^2 + 12n + 9 \\)",
-        topic: "Factorising Double Brackets"
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
         content: "Find the roots of \\( 2x^2 - 4x - 3 = 0 \\)",
-        topic: "Using the Quadratic Formula"
+        topic: "Using the Quadratic Formula (AC Method)"
+    },
+    // Factorising Double Brackets (AC Method) - Positive Terms
+    {
+        type: 'text',
+        content: "Factorise $2x^2 + 5x + 3$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $3x^2 + 7x + 2$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $5x^2 + 11x + 2$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $2x^2 + 7x + 6$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $3x^2 + 8x + 4$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $4x^2 + 8x + 3$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+
+    // Factorising Double Brackets (AC Method) - Mix of Positives and Negatives
+    {
+        type: 'text',
+        content: "Factorise $2x^2 - x - 1$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $3x^2 - 5x - 2$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $5x^2 - 13x - 6$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $2x^2 - 7x + 5$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $3x^2 - 10x + 8$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $4x^2 - 12x + 5$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+
+    // Factorising Double Brackets (AC Method) - Trickier Composite Coefficients
+    {
+        type: 'text',
+        content: "Factorise $6x^2 + 7x - 3$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $6x^2 - 11x - 10$",
+        topic: "Factorising Double Brackets (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Factorise $8x^2 + 10x - 3$",
+        topic: "Factorising Double Brackets (AC Method)"
     },
     {
         type: 'text',
