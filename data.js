@@ -6,6 +6,7 @@ const allTopics = [
     "Using the Quadratic Formula",
     "Differentiation",
     "Basic Laws of Indices",
+    "Rationalising Denominators",
     "Factorising Single Brackets",
     "Writing one value as a power of another",
     "Adding/Subtracting Algebraic Fractions",
@@ -25,6 +26,113 @@ const questionBank = [
     // Adding/Subtracting Algebraic Fractions - Numerical Denominators
     // Writing one value as a power of another - Basic Base Changes
     // Multiplying/Dividing Algebraic Fractions - Extra Multiplication
+    // Rationalising Denominators - Single Surds (Warm-up)
+    {
+        type: 'text',
+        content: "Show that $\\frac{10}{\\sqrt{5}}$ <br>can be written in the form $a\\sqrt{b}$ <br>where $a$ and $b$ are prime numbers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{14}{3\\sqrt{7}}$ <br>can be written in the form $\\frac{a\\sqrt{b}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{6\\sqrt{2}}{\\sqrt{3}}$ <br>can be written in the form $a\\sqrt{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{\\sqrt{12}}{\\sqrt{2}}$ <br>can be written in the form $\\sqrt{a}$ <br>where $a$ is an integer.",
+        topic: "Rationalising Denominators"
+    },
+
+    // Rationalising Denominators - Binomials, Integer Numerator (Medium)
+    {
+        type: 'text',
+        content: "Show that $\\frac{3}{2 + \\sqrt{3}}$ <br>can be written in the form $a - b\\sqrt{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{5}{4 - \\sqrt{11}}$ <br>can be written in the form $a + \\sqrt{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{4}{3 + \\sqrt{5}}$ <br>can be written in the form $a - \\sqrt{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{12}{5 - \\sqrt{7}}$ <br>can be written in the form $\\frac{a + b\\sqrt{c}}{d}$ <br>where $a, b, c,$ and $d$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{2}{6 - 3\\sqrt{2}}$ <br>can be written in the form $\\frac{a + \\sqrt{a}}{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{8}{3 - \\sqrt{5}}$ <br>can be written in the form $a + b\\sqrt{5}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+
+    // Rationalising Denominators - Surds on Top and Bottom (Hard)
+    {
+        type: 'text',
+        content: "Show that $\\frac{\\sqrt{2}}{1 + \\sqrt{2}}$ <br>can be written in the form $a - \\sqrt{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{1 + \\sqrt{3}}{2 - \\sqrt{3}}$ <br>can be written in the form $a + b\\sqrt{3}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{3 - \\sqrt{5}}{3 + \\sqrt{5}}$ <br>can be written in the form $\\frac{a - b\\sqrt{5}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{4 + \\sqrt{2}}{5 - 2\\sqrt{2}}$ <br>can be written in the form $\\frac{a + b\\sqrt{2}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{\\sqrt{7} - 2}{\\sqrt{7} + 2}$ <br>can be written in the form $\\frac{a - b\\sqrt{7}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+
+    // Rationalising Denominators - Advanced / Mixed Surds (Challenge)
+    {
+        type: 'text',
+        content: "Show that $\\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sq,rt{2}}$ <br>can be written in the form $\\frac{a + b\\sqrt{10}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{2\\sqrt{3} - 1}{3\\sqrt{3} + 2}$ <br>can be written in the form $\\frac{a - b\\sqrt{3}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{5\\sqrt{2} + 3}{2\\sqrt{2} - 1}$ <br>can be written in the form $\\frac{a + b\\sqrt{2}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{(2 + \\sqrt{3})^2}{4 - \\sqrt{3}}$ <br>can be written in the form $\\frac{a + b\\sqrt{3}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        topic: "Rationalising Denominators"
+    },
+    {
+        type: 'text',
+        content: "Show that $\\frac{\\sqrt{12} - \\sqrt{3}}{\\sqrt{8} + \\sqrt{2}}$ <br>can be written in the form $\\frac{\\sqrt{a}}{b}$ <br>where $a$ and $b$ are integers.",
+        topic: "Rationalising Denominators"
+    },
     {
         type: 'text',
         content: "Simplify $\\frac{3x^2}{4y} \\times \\frac{8y^2}{9x}$",
