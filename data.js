@@ -12,6 +12,8 @@ const allTopics = [
     "Writing one value as a power of another",
     "Adding/Subtracting Algebraic Fractions",
     "Average Speed",
+    "Linear Simultaneous Equations",
+    "Non-linear Simultaneous Equations",
     "Changing the Subject",
     "Difference of Two Squares",
     "Fractional & Negative Indices",
@@ -23,12 +25,219 @@ const allTopics = [
 // Add your questions here. 
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
-    // Difference of Two Squares - Basic Monic
-    // Adding/Subtracting Algebraic Fractions - Numerical Denominators
-    // Writing one value as a power of another - Basic Base Changes
-    // Multiplying/Dividing Algebraic Fractions - Extra Multiplication
-    // Rationalising Denominators - Single Surds (Warm-up)
-    // Factorising Algebraic Fractions - Single Brackets & Basic DOTS
+    // Non-linear Simultaneous Equations - Parabola & Line (y = ...)
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = x^2$<br>$y = 2x + 3$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = x^2 - 4$<br>$y = 3x$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = x^2 + 2x$<br>$y = x + 6$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = x^2 - x - 2$<br>$y = 2x + 2$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = 2x^2$<br>$y = 3x + 2$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+
+    // Non-linear Simultaneous Equations - Circle & Line (Pre-arranged)
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 25$<br>$y = x + 1$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 10$<br>$y = 2x - 5$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 13$<br>$x = y + 1$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 20$<br>$y = x + 2$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 17$<br>$y = x - 3$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+
+    // Non-linear Simultaneous Equations - Rearranging Required
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 5$<br>$x + y = 3$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 25$<br>$x - y = 7$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y^2 = 34$<br>$x + y = 8$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$xy = 12$<br>$x + y = 7$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$xy = 8$<br>$2x + y = 8$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+
+    // Non-linear Simultaneous Equations - Advanced Forms
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 - y^2 = 9$<br>$x - y = 1$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + 2y^2 = 18$<br>$x + y = 3$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$2x^2 - y^2 = 7$<br>$2x - y = 1$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$xy + y^2 = 10$<br>$x - y = 3$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x^2 + y = 11$<br>$x + y = 5$",
+        topic: "Non-linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x + y = 10$<br>$x - y = 2$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$2x + y = 11$<br>$x - y = 4$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$3x + 2y = 16$<br>$x - 2y = 0$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$4x + 3y = 18$<br>$x - 3y = -3$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$5x + y = 17$<br>$2x + y = 8$",
+        topic: "Linear Simultaneous Equations"
+    },
+
+    // Linear Simultaneous Equations - Scale One Equation
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x + 2y = 8$<br>$2x + 3y = 14$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$3x + y = 13$<br>$2x + 4y = 22$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$5x - 2y = 16$<br>$x + 4y = 12$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$4x + 3y = 27$<br>$2x - y = 1$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$2x + 5y = 24$<br>$4x + 3y = 20$",
+        topic: "Linear Simultaneous Equations"
+    },
+
+    // Linear Simultaneous Equations - Scale Both Equations
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$2x + 3y = 13$<br>$3x + 2y = 12$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$3x + 4y = 18$<br>$4x + 5y = 23$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$5x - 2y = 11$<br>$3x + 3y = 15$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$4x - 3y = 17$<br>$3x + 4y = 19$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$7x + 2y = 23$<br>$2x + 5y = 11$",
+        topic: "Linear Simultaneous Equations"
+    },
+
+    // Linear Simultaneous Equations - Rearranging / Substitution
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y = 2x + 1$<br>$3x + y = 16$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$x = y + 4$<br>$2x + 3y = 23$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$2x = 3y - 1$<br>$5x - 2y = 14$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$y - x = 5$<br>$3y + 2x = 25$",
+        topic: "Linear Simultaneous Equations"
+    },
+    {
+        type: 'text',
+        content: "Solve the simultaneous equations:<br>$4x = 10 - 2y$<br>$3x + 5y = 11$",
+        topic: "Linear Simultaneous Equations"
+    },
     {
         type: 'text',
         content: "Simplify: \\( \\frac{3x-9}{x-3} \\)",
