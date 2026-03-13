@@ -276,47 +276,47 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Factorise: \( x^2 + 7x + 10 \)",
+        content: "Factorise: \\( x^2 + 7x + 10 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( y^2 - 5y + 6 \)",
+        content: "Factorise: \\( y^2 - 5y + 6 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( p^2 + 3p - 4 \)",
+        content: "Factorise: \\( p^2 + 3p - 4 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( m^2 - 8m - 20 \)",
+        content: "Factorise: \\( m^2 - 8m - 20 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( t^2 + 10t + 25 \)",
+        content: "Factorise: \\( t^2 + 10t + 25 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( q^2 - 9q + 14 \)",
+        content: "Factorise: \\( q^2 - 9q + 14 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( a^2 + a - 12 \)",
+        content: "Factorise: \\( a^2 + a - 12 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( w^2 - 12w + 35 \)",
+        content: "Factorise: \\( w^2 - 12w + 35 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( n^2 + 6n - 27 \)",
+        content: "Factorise: \\( n^2 + 6n - 27 \\)",
         topic: "Factorising Double Brackets"
     },
     {
@@ -326,22 +326,22 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Factorise: \( k^2 - 2k - 15 \)",
+        content: "Factorise: \\( k^2 - 2k - 15 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 2x^2 + 5x + 3 \)",
+        content: "Factorise: \\( 2x^2 + 5x + 3 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 3y^2 - 10y + 8 \)",
+        content: "Factorise: \\( 3y^2 - 10y + 8 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 5p^2 + 13p - 6 \)",
+        content: "Factorise: \\( 5p^2 + 13p - 6 \\)",
         topic: "Factorising Double Brackets"
     },
     {
@@ -351,27 +351,27 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Factorise: \( 6t^2 + 11t + 4 \)",
+        content: "Factorise: \\( 6t^2 + 11t + 4 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 2q^2 - 7q - 4 \)",
+        content: "Factorise: \\( 2q^2 - 7q - 4 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 3a^2 + 14a - 5 \)",
+        content: "Factorise: \\( 3a^2 + 14a - 5 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 8w^2 - 10w + 3 \)",
+        content: "Factorise: \\( 8w^2 - 10w + 3 \\)",
         topic: "Factorising Double Brackets"
     },
     {
         type: 'text',
-        content: "Factorise: \( 4n^2 + 12n + 9 \)",
+        content: "Factorise: \\( 4n^2 + 12n + 9 \\)",
         topic: "Factorising Double Brackets"
     },
     {
