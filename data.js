@@ -8,6 +8,7 @@ const allTopics = [
     "Basic Laws of Indices",
     "Rationalising Denominators",
     "Factorising Single Brackets",
+    "Factorising Algebraic Fractions",
     "Writing one value as a power of another",
     "Adding/Subtracting Algebraic Fractions",
     "Average Speed",
@@ -27,6 +28,113 @@ const questionBank = [
     // Writing one value as a power of another - Basic Base Changes
     // Multiplying/Dividing Algebraic Fractions - Extra Multiplication
     // Rationalising Denominators - Single Surds (Warm-up)
+    // Factorising Algebraic Fractions - Single Brackets & Basic DOTS
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{3x-9}{x-3} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2+4x}{x} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{5x}{10x^2-15x} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2-16}{x-4} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{y+5}{y^2-25} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+
+    // Factorising Algebraic Fractions - Monic Quadratics
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2+5x+6}{x+2} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2-7x+10}{x-5} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{a^2+8a+15}{a^2+3a} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{m^2-3m}{m^2-9} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{p^2-2p-8}{p^2-16} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2+6x+9}{x^2-9} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+
+    // Factorising Algebraic Fractions - Quadratics on Top and Bottom
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{y^2+7y+12}{y^2+5y+4} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{n^2-n-20}{n^2-8n+15} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^2-1}{x^2+4x+3} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{a^2-2a+1}{a^2+a-2} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{w^2-10w+24}{w^2-3w-18} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+
+    // Factorising Algebraic Fractions - Non-Monic Quadratics (Advanced)
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{2x^2+5x+3}{x^2-1} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{3x^2-x-2}{3x^2+5x+2} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{2m^2+11m+5}{2m^2+m} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{4x^2-9}{2x^2+x-6} \\)",
+        topic: "Factorising Algebraic Fractions"
+    },
     {
         type: 'text',
         content: "Show that $\\frac{10}{\\sqrt{5}}$ <br>can be written in the form $a\\sqrt{b}$ <br>where $a$ and $b$ are prime numbers.",
