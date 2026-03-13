@@ -164,6 +164,108 @@ const questionBank = [
     },
     {
         type: 'text',
+        content: "a) Rearrange \\( x^2 + 4x + 7 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 - 6x + 14 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 + 10x + 20 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 - 2x + 8 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 + 8x + 12 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 - 12x + 40 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 + 14x + 50 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 - 4x - 5 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 + 6x + 2 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( x^2 - 10x + 30 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
+        topic: "Completing the Square"
+    },
+
+    // Completing the Square & Turning Points - Maximums
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 - 4x - 1 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 + 6x - 4 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 - 8x - 20 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 + 2x + 5 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 - 10x - 30 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 + 12x - 40 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 - 6x - 10 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 + 4x + 2 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 - 14x - 50 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "a) Rearrange \\( -x^2 + 10x - 21 \\) into the form \\( -(x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the maximum point.",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
         content: "Solve by first rearranging into the form \\(a(x+b)^2+c=0\\): \\( x^2 + 6x + 9 = 0 \\)",
         topic: "Completing the Square"
     },
