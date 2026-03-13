@@ -4,6 +4,7 @@ const allTopics = [
     "Factorising Double Brackets",
     "Using the Quadratic Formula",
     "Differentiation",
+    "Factorising Single Brackets",
     "Expanding Single Brackets",
     "Pythagoras Theorem"
 ];
@@ -12,6 +13,189 @@ const allTopics = [
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
     // Expanding Single Brackets - Positives
+    // Factorising Single Brackets - Basic Numbers
+    // Factorising Single Brackets - Multiple Variables & Higher Powers
+    {
+        type: 'text',
+        content: "Factorise: \\( 12x^2y^3 + 18x^3y^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 15a^3b - 20a^2b^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 24m^4n^2 + 16m^2n^3 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 9p^3q^3 - 27p^2q^4 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 14u^2v^4 + 21u^4v^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 30x^5y^2 - 12x^3y^4 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 45a^4b^3 + 18a^3b^4 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 16c^3d^5 - 24c^5d^3 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 25m^2n^5 + 35m^5n^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 42p^4q^2 - 28p^2q^4 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 10x^3y^2z + 15x^2y^3z^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 36a^5b^2 - 48a^2b^5 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 22u^3v^3 + 33u^4v \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 54c^6d^2 - 18c^4d^3 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 20x^2y^3z^2 + 30x^3y^2z \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 3x + 15 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 4y - 12 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 10a + 25 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 8m - 18 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 14p + 21 \\)",
+        topic: "Factorising Single Brackets"
+    },
+
+    // Factorising Single Brackets - Variables
+    {
+        type: 'text',
+        content: "Factorise: \\( x^2 + 5x \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( y^2 - 8y \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( a^2 + a \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 2m^2 + m \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( p^2 - 7p \\)",
+        topic: "Factorising Single Brackets"
+    },
+
+    // Factorising Single Brackets - Numbers and Variables
+    {
+        type: 'text',
+        content: "Factorise: \\( 4x^2 + 10x \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 6y^2 - 15y \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 9a^2 + 12a \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 12m^2 - 16m \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 15p^2 + 20p \\)",
+        topic: "Factorising Single Brackets"
+    },
+
+    // Factorising Single Brackets - Higher Powers and Multiple Variables
+    {
+        type: 'text',
+        content: "Factorise: \\( x^3 + 4x^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 5xy + 15x \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 8a^2b - 12ab \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 7m^3 - 14m^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Factorise: \\( 18p^2q + 27pq^2 \\)",
+        topic: "Factorising Single Brackets"
+    },
     {
         type: 'text',
         content: "Expand: \\( 3(x + 4) \\)",
