@@ -15,6 +15,109 @@ const questionBank = [
     // Expanding Single Brackets - Positives
     // Factorising Single Brackets - Basic Numbers
     // Factorising Single Brackets - Multiple Variables & Higher Powers
+    // Quadratic Formula (3sf) - Monic
+    {
+        type: 'text',
+        content: "Solve \\( x^2 + 5x + 2 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 - 7x + 3 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 + 3x - 5 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 - 4x - 6 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 + 8x + 4 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 - 2x - 10 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 + 6x - 2 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 - 9x + 5 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 + 10x - 7 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( x^2 - 5x - 3 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+
+    // Quadratic Formula (3sf) - Non-Monic
+    {
+        type: 'text',
+        content: "Solve \\( 2x^2 + 7x + 4 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 3x^2 - 8x + 2 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 4x^2 + 5x - 3 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 5x^2 - 6x - 4 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 2x^2 + 9x - 1 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 3x^2 - 5x - 7 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 6x^2 + 11x + 2 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 4x^2 - 7x + 1 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 7x^2 + 2x - 4 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 5x^2 - 9x + 3 = 0 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
     {
         type: 'text',
         content: "Factorise: \\( 12x^2y^3 + 18x^3y^2 \\)",
