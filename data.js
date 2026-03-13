@@ -4,6 +4,7 @@ const allTopics = [
     "Factorising Double Brackets",
     "Using the Quadratic Formula",
     "Differentiation",
+    "Expanding Single Brackets",
     "Pythagoras Theorem"
 ];
 
@@ -113,8 +114,6 @@ const questionBank = [
         content: "Expand: \\( p(p - 1) \\)",
         topic: "Expanding Single Brackets"
     },
-
-    // Expanding Single Brackets - Negatives Outside & Mixed
     {
         type: 'text',
         content: "Expand: \\( -2(x + 4) \\)",
