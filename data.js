@@ -7,11 +7,14 @@ const allTopics = [
     "Differentiation",
     "Basic Laws of Indices",
     "Factorising Single Brackets",
+    "Writing one value as a power of another",
+    "Adding/Subtracting Algebraic Fractions",
     "Average Speed",
     "Changing the Subject",
     "Difference of Two Squares",
     "Fractional & Negative Indices",
     "Expanding Single Brackets",
+    "Multiplying/Dividing Algebraic Fractions",
     "Pythagoras Theorem"
 ];
 
@@ -19,6 +22,325 @@ const allTopics = [
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
     // Difference of Two Squares - Basic Monic
+    // Adding/Subtracting Algebraic Fractions - Numerical Denominators
+    // Writing one value as a power of another - Basic Base Changes
+    // Multiplying/Dividing Algebraic Fractions - Extra Multiplication
+    {
+        type: 'text',
+        content: "Simplify $\\frac{3x^2}{4y} \\times \\frac{8y^2}{9x}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{5a^3b}{2c} \\times \\frac{4c^2}{15ab^2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{x-2}{3x} \\times \\frac{6x^2}{x-2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{y+4}{y-1} \\times \\frac{y^2-1}{3y+12}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{m^2+2m}{5} \\times \\frac{15}{m^2-4}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{p^2-q^2}{p+q} \\times \\frac{p}{p-q}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{2x^2-8}{x^2-x-6} \\times \\frac{x-3}{x-2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{a^2+6a+9}{a^2-9} \\times \\frac{a-3}{a+3}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{4x^2-1}{2x^2+x} \\times \\frac{x}{2x-1}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{n^2-5n+6}{n^2-4} \\times \\frac{n+2}{n-3}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+
+    // Multiplying/Dividing Algebraic Fractions - Extra Division
+    {
+        type: 'text',
+        content: "Simplify $\\frac{7x^3}{2y} \\div \\frac{14x}{6y^2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{8a^2b^3}{3c} \\div \\frac{4ab^2}{9c^2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{x+5}{4} \\div \\frac{x+5}{8x}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{m-3}{m^2} \\div \\frac{m^2-9}{m}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{y^2-16}{3y} \\div \\frac{y-4}{6y^2}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{p^2-25}{p^2+5p} \\div \\frac{p-5}{p}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{x^2+7x+10}{x+2} \\div \\frac{x+5}{x-1}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{2a^2-a-1}{a^2-1} \\div \\frac{2a+1}{a+1}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{n^2-n-12}{n^2-16} \\div \\frac{n+3}{n+4}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Simplify $\\frac{3x^2-12x}{x^2-x-12} \\div \\frac{3x}{x+3}$",
+        topic: "Multiplying/Dividing Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Given that $4^{k} = 8^{k-1}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $9^{k+1} = 27^k$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $25^{k-2} = 125^k$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $16^{k} = 64^{k-1}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $36^{k+1} = 216^k$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+
+    // Writing one value as a power of another - With Multiplication
+    {
+        type: 'text',
+        content: "Given that $8^{k+1} = 4 \\times 2^k$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $9^{k} = 27 \\times 3^{k-2}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $16^{k-1} = 8 \\times 4^k$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $125^{k-1} = 25 \\times 5^{2k}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $32^k = 16 \\times 8^{k-2}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $100^k = 10 \\times 1000^{k-1}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+
+    // Writing one value as a power of another - With Division
+    {
+        type: 'text',
+        content: "Given that $25^k = \\frac{125}{5^k}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $4^{k+2} = \\frac{32}{2^k}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $27^k = \\frac{9^{k+1}}{3}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $\\frac{27^k}{9} = 81^{k-1}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+
+    // Writing one value as a power of another - Advanced/Negative Indices
+    {
+        type: 'text',
+        content: "Given that $8^k = \\frac{1}{4^{k-3}}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $\\frac{1}{9^k} = 27^{k+2}$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $2^k \\times 8^{k-1} = 16$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $3^{k+2} \\times 9^k = 81$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Given that $8^{2k} = 4^{k+3} \\times 2$ <br>Find the value of $k$.",
+        topic: "Writing one value as a power of another"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{x}{3} + \\frac{x}{4}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2x}{5} - \\frac{x}{2}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{x+2}{3} + \\frac{x-1}{4}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2x-3}{5} - \\frac{x+1}{2}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+
+    // Adding/Subtracting Algebraic Fractions - Algebraic Denominators (Single Terms)
+    {
+        type: 'text',
+        content: "Write $\\frac{3}{x} + \\frac{5}{2x}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{4}{3x} - \\frac{1}{x}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2}{x^2} + \\frac{5}{x}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{5}{2y} - \\frac{3}{4y}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+
+    // Adding/Subtracting Algebraic Fractions - Algebraic Denominators (Binomials)
+    {
+        type: 'text',
+        content: "Write $\\frac{3}{x+2} + \\frac{4}{x-1}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{5}{x-3} - \\frac{2}{x+4}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2}{2x+1} + \\frac{3}{x-2}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{4}{3x-2} - \\frac{1}{x+5}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+
+    // Adding/Subtracting Algebraic Fractions - Algebra in Both Numerator and Denominator
+    {
+        type: 'text',
+        content: "Write $\\frac{x}{x+1} + \\frac{2}{x-3}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{x+1}{x-2} - \\frac{x}{x+3}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2x}{x+4} + \\frac{x}{x-1}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{x-2}{x+2} - \\frac{x+1}{x-3}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+
+    // Adding/Subtracting Algebraic Fractions - Advanced (Factorising Denominators First)
+    {
+        type: 'text',
+        content: "Write $\\frac{3}{x^2-9} + \\frac{2}{x-3}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{5}{x^2-x-6} - \\frac{2}{x-3}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{x}{x^2-4} + \\frac{1}{x+2}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
+    {
+        type: 'text',
+        content: "Write $\\frac{2x}{x^2-1} - \\frac{3}{x-1}$ as a single fraction in its simplest form.",
+        topic: "Adding/Subtracting Algebraic Fractions"
+    },
     {
         type: 'text',
         content: "Factorise $x^2 - 16$",
