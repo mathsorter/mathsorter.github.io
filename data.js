@@ -62,8 +62,6 @@ const questionBank = [
         content: "Expand: \\( y(y + 3) \\)",
         topic: "Expanding Single Brackets"
     },
-
-    // Expanding Single Brackets - Negatives Inside
     {
         type: 'text',
         content: "Expand: \\( 4(x - 3) \\)",
@@ -270,7 +268,7 @@ const questionBank = [
         type: 'text',
         content: "Solve by first rearranging into the form \\( a(v+b)^2+c=0 \\): \\( 5v^2 - 30v + 25 = 0 \\)",
         topic: "Completing the Square"
-    }
+    },
     {
         type: 'text',
         content: "Factorise: \\( x^2 + 5x + 6 \\)",
