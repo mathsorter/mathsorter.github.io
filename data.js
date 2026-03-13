@@ -4,7 +4,9 @@ const allTopics = [
     "Factorising Double Brackets",
     "Using the Quadratic Formula",
     "Differentiation",
+    "Basic Laws of Indices",
     "Factorising Single Brackets",
+    "Fractional & Negative Indices",
     "Expanding Single Brackets",
     "Pythagoras Theorem"
 ];
@@ -16,6 +18,368 @@ const questionBank = [
     // Factorising Single Brackets - Basic Numbers
     // Factorising Single Brackets - Multiple Variables & Higher Powers
     // Quadratic Formula (3sf) - Monic
+    // Basic Laws of Indices - Single Variables & Coefficients
+    // Basic Laws of Indices - 3+ Variables & Complex Quotients
+    // Fractional & Negative Indices - Fractional Powers
+    {
+        type: 'text',
+        content: "Simplify: \\( (x^4 y^6)^{\\frac{1}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (8a^6 b^9)^{\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (16m^8 n^{12})^{\\frac{3}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (25p^2 q^4)^{\\frac{3}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (27x^9 y^6)^{\\frac{2}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (32u^{10} v^{15})^{\\frac{2}{5}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{16a^4}{b^8} \\right)^{\\frac{1}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{8x^3}{y^6} \\right)^{\\frac{2}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+
+    // Fractional & Negative Indices - Negative Fractional Powers
+    {
+        type: 'text',
+        content: "Simplify: \\( (x^6 y^2)^{-\\frac{1}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (64m^6 n^{12})^{-\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (16p^{12} q^8)^{-\\frac{3}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{25a^4}{b^2} \\right)^{-\\frac{1}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+
+    // Fractional & Negative Indices - Negative Integer Powers
+    {
+        type: 'text',
+        content: "Simplify: \\( (x^3 y^5)^{-2} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (2a^2 b^4)^{-3} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    // Fractional & Negative Indices - Algebraic Quotients & Mixed Powers
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{16x^8}{y^{12}} \\right)^{-\\frac{1}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{27a^6}{b^9} \\right)^{-\\frac{2}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{8m^9}{n^3} \\right)^{-\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{25p^4}{q^6} \\right)^{-\\frac{3}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{32u^{10}}{v^{15}} \\right)^{-\\frac{2}{5}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{x^{-4}}{y^8} \\right)^{\\frac{1}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{a^6 b^{-3}}{8} \\right)^{\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{16m^{-8}}{n^4} \\right)^{\\frac{3}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{81p^{12}}{q^{-4}} \\right)^{\\frac{1}{4}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{x^{-6} y^9}{27z^{-3}} \\right)^{\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(x^4 y^{-2})^{\\frac{1}{2}}}{x^{-3} y} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(16a^8 b^{-4})^{\\frac{1}{4}}}{a^{-2} b^3} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{x^2 y^{-3}}{x^{-4} y^5} \\right)^{-\\frac{1}{2}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{2a^{-3} b^4}{16a^5 b^{-8}} \\right)^{-\\frac{1}{3}} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(m^6 n^{-9})^{-\\frac{1}{3}}}{m^{-2} n^4} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (3m^4 n)^{-2} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( (4u^5 v^3)^{-2} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{x^2}{y^5} \\right)^{-1} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{2p^3}{q^4} \\right)^{-3} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{m^4 n^2}{p^5} \\right)^{-2} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\left( \\frac{5x^3}{y^2 z^4} \\right)^{-2} \\)",
+        topic: "Fractional & Negative Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{a^4 b^5 c^3}{a^2 b^2 c} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^6 y^4 z^7}{x^3 y z^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{15p^5 q^6 r^4}{3p^2 q^4 r^3} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{24m^8 n^5 p^7}{6m^4 n^2 p^5} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(x^2 y^3 z)^3}{x^4 y^5 z^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{20a^7 b^5 c^8}{4a b^3 c^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(2p^3 q r^2)^4}{8p^5 q^2 r^5} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{u^5 v^6 w^4 \\times u^2 v w^3}{u^4 v^3 w^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{18x^5 y^7 z^3}{9x^2 y^6 z} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{36a^9 b^4 c^5}{12a^4 b^2 c^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(m^4 n^2 p^3)^2}{m^5 n p^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{10x^4 y^6 z^5 \\times 3x^2 y z}{5x^3 y^4 z^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{45p^6 q^8 r^7}{15p^3 q^4 r^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(3a^2 b^4 c)^3}{9a^4 b^7 c^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{32u^8 v^6 w^9}{8u^3 v^2 w^2 \\times 2u v} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^5}{x^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{y^8}{y^3} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{m^{10}}{m^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{12a^6}{3a^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{15p^7}{5p^3} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{20n^9}{4n} \\)",
+        topic: "Basic Laws of Indices"
+    },
+
+    // Basic Laws of Indices - Multiple Variables
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^4 y^5}{x^2 y^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{a^7 b^4}{a^3 b} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{18p^5 q^6}{6p^2 q^3} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{24m^8 n^5}{8m^4 n^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+
+    // Basic Laws of Indices - Powers of Powers & Combined Operations
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(x^3)^4}{x^5} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(y^2)^5}{y^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(2a^3)^2}{a^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(3p^4)^2}{3p^5} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{x^6 \\times x^4}{x^3} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{y^5 \\times y^7}{y^8} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{4a^3 \\times 5a^4}{10a^2} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{12m^5 \\times 2m^3}{6m^4} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{(p^2 q^3)^3}{p^4 q^5} \\)",
+        topic: "Basic Laws of Indices"
+    },
+    {
+        type: 'text',
+        content: "Simplify: \\( \\frac{16x^7 y^6}{2x^3 y^2 \\times 4x y} \\)",
+        topic: "Basic Laws of Indices"
+    },
     {
         type: 'text',
         content: "Solve \\( x^2 + 5x + 2 = 0 \\) leaving your answers to 3sf.",
