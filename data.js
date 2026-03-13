@@ -6,6 +6,8 @@ const allTopics = [
     "Differentiation",
     "Basic Laws of Indices",
     "Factorising Single Brackets",
+    "Average Speed",
+    "Changing the Subject",
     "Fractional & Negative Indices",
     "Expanding Single Brackets",
     "Pythagoras Theorem"
@@ -14,13 +16,216 @@ const allTopics = [
 // Add your questions here. 
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
-    // Expanding Single Brackets - Positives
-    // Factorising Single Brackets - Basic Numbers
-    // Factorising Single Brackets - Multiple Variables & Higher Powers
-    // Quadratic Formula (3sf) - Monic
-    // Basic Laws of Indices - Single Variables & Coefficients
-    // Basic Laws of Indices - 3+ Variables & Complex Quotients
-    // Fractional & Negative Indices - Fractional Powers
+    // Average Speed - Standard & Conversions
+    // Changing the Subject - Linear & Basic Fractions
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = 3x + 2$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $a$ the subject of $v = u + at$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $m$ the subject of $y = mx + c$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $c$ the subject of $A = \frac{c}{y} - 5z$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $p$ the subject of $q = 4(p - 3)$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \frac{x+1}{3}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $t$ the subject of $s = \frac{1}{2}(u+v)t$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \frac{2x - 3}{5}$",
+        topic: "Changing the Subject"
+    },
+
+    // Changing the Subject - Squares & Roots
+    {
+        type: 'text',
+        content: "Make $r$ the subject of $A = \pi r^2$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $a$ the subject of $v^2 = u^2 + 2as$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = x^2 + 5$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $l$ the subject of $T = 2\pi\sqrt{\frac{l}{g}}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \sqrt{3x - 2}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $b$ the subject of $a^2 = b^2 + c^2$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $r$ the subject of $V = \frac{4}{3}\pi r^3$",
+        topic: "Changing the Subject"
+    },
+
+    // Changing the Subject - Variable Appears Twice (Advanced)
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \frac{x}{x+2}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $p$ the subject of $q = \frac{p+1}{p-1}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $x$ the subject of $y = \frac{ax + b}{cx + d}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $m$ the subject of $F = \frac{Gm_1 m}{r^2} + ma$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "Make $t$ the subject of $v = \frac{t - 3}{t + 4}$",
+        topic: "Changing the Subject"
+    },
+    {
+        type: 'text',
+        content: "A flight from London to New York takes 7 hours 45 minutes.<br>The distance travelled is 5580 km.<br>Work out the average speed of the plane in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A cyclist completes a 42 km route in 1 hour 45 minutes.<br>Work out their average speed.<br>Give your answer in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A train leaves a station at 08:45 and arrives at its destination at 11:15.<br>The total distance travelled is 185 km.<br>Work out the average speed of the train in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A bus departs at 14:30 and arrives at 16:50.<br>The route is 105 km long.<br>Work out the average speed of the bus in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A ferry crosses an 18 km channel.<br>The journey takes exactly 40 minutes.<br>Work out the average speed of the ferry in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A sprinter runs 100 metres in 10.4 seconds.<br>Work out their average speed.<br>Give your answer in kilometres per hour (km/h).",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A remote control boat travels 450 metres in 1.5 minutes.<br>Work out its average speed.<br>Give your answer in metres per second (m/s).",
+        topic: "Average Speed"
+    },
+
+    // Average Speed - Finding Distance & Time
+    {
+        type: 'text',
+        content: "A car travels at an average speed of 68 km/h for 2 hours 15 minutes.<br>Work out the total distance travelled.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A high-speed train travels at 240 km/h for 45 minutes.<br>Work out the distance travelled in km.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "An athlete cycles at an average speed of 36 km/h for 25 minutes.<br>Work out the distance travelled in km.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A snail moves at an average speed of 0.05 km/h.<br>It travels for 2 hours 12 minutes.<br>Work out the distance it travels, giving your answer in metres.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A marathon runner covers 42.2 km at an average speed of 12 km/h.<br>Work out the time taken.<br>Give your answer in hours and minutes, to the nearest minute.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A satellite orbits Earth at a speed of 28,000 km/h.<br>The orbit distance is 42,000 km.<br>How long does one complete orbit take? Give your answer in hours and minutes.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A car leaves home at 09:00, travelling 150 miles at an average speed of 40 mph.<br>At what time does the car reach its destination?",
+        topic: "Average Speed"
+    },
+
+    // Average Speed - Multi-Stage Journeys (The tricky ones!)
+    {
+        type: 'text',
+        content: "A driver travels 60 km at a speed of 40 km/h.<br>They then travel another 90 km at a speed of 60 km/h.<br>Work out the average speed for the whole journey in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A plane flies 800 km at 400 km/h.<br>It then encounters a tailwind and flies the next 1200 km at 600 km/h.<br>Work out the average speed for the entire flight.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "Sarah walks 3 km at 6 km/h.<br>She stops to rest for 15 minutes.<br>She then runs 2 km at 8 km/h.<br>Work out her average speed for the whole journey in km/h.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A hiker walks up a hill, a distance of 6 km, at an average speed of 2 km/h.<br>They walk down the exact same path at an average speed of 3 km/h.<br>Work out the average speed for the whole journey.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A delivery van travels for 2 hours at 50 mph.<br>It then travels for 3 hours at 40 mph.<br>Work out the average speed for the whole journey.",
+        topic: "Average Speed"
+    },
+    {
+        type: 'text',
+        content: "A cyclist rides for 30 km at 15 km/h.<br>They get a flat tyre and walk the remaining 5 km at 5 km/h.<br>Work out their average speed for the entire journey.",
+        topic: "Average Speed"
+    },
     {
         type: 'text',
         content: "Simplify: \\( (x^4 y^6)^{\\frac{1}{2}} \\)",
