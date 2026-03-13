@@ -384,6 +384,113 @@ const questionBank = [
         content: "Find \\( \\frac{dy}{dx} \\) for \\( y = 3x^2 + 2x \\)",
         topic: "Differentiation"
     },
+    // Differentiation - Volume & Area
+    {
+        type: 'text',
+        content: "The volume of a swimming pool, \\( V \\) in cubic meters, \\( t \\) hours after a smart-pump is activated is given by the equation \\( V = 2t^3 - 15t^2 + 36t + 100 \\). Calculate the maximum volume of water in the pool before it begins to drain.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "An open-top box is made by cutting squares of side length \\( x \\) cm from a piece of cardboard. The volume, \\( V \\), of the box is given by \\( V = 4x^3 - 24x^2 + 36x \\). Find the value of \\( x \\) that gives the maximum volume.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "A farmer is fencing off a rectangular pen against a straight river. The area of the pen, \\( A \\) in square meters, for a given width \\( x \\) is modelled by \\( A = 120x - 3x^2 \\). Calculate the maximum possible area of the pen.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The volume of air in a weather balloon, \\( V \\) in liters, during its ascent is given by \\( V = -2x^3 + 27x^2 - 84x + 200 \\), where \\( x \\) is the altitude in kilometers. Find the maximum volume of the balloon.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The depth of a reservoir, \\( D \\) in meters, fluctuates over \\( t \\) months according to the formula \\( D = t^3 - 12t^2 + 36t + 15 \\). Find the minimum depth of the reservoir during this period.",
+        topic: "Differentiation"
+    },
+
+    // Differentiation - Profit & Cost
+    {
+        type: 'text',
+        content: "A tech company's weekly profit, \\( P \\) in thousands of dollars, from manufacturing \\( x \\) thousand smartwatches is modelled by \\( P = -x^3 + 9x^2 - 15x + 20 \\). Calculate the maximum possible weekly profit.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The production cost, \\( C \\) in dollars, of producing \\( x \\) batches of circuit boards is given by the equation \\( C = x^3 - 21x^2 + 120x + 500 \\). Find the minimum cost of production.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The daily revenue of a cinema, \\( R \\) in dollars, depending on the ticket price \\( p \\), is given by \\( R = -2p^2 + 48p + 150 \\). Calculate the ticket price that maximizes the revenue.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "A factory's energy consumption, \\( E \\) in kilowatts, over \\( t \\) hours of operation is modelled by \\( E = \\frac{1}{3}t^3 - 5t^2 + 24t + 100 \\). Find the minimum energy consumption.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The yield of a wheat crop, \\( Y \\) in kilograms, based on \\( x \\) liters of fertilizer applied per hectare, is given by \\( Y = -x^3 + 18x^2 - 81x + 300 \\). Find the amount of fertilizer that produces the maximum yield.",
+        topic: "Differentiation"
+    },
+
+    // Differentiation - Kinematics
+    {
+        type: 'text',
+        content: "A model rocket is launched into the air. Its height, \\( h \\) in meters, after \\( t \\) seconds is given by \\( h = -t^3 + 12t^2 + 60t \\). Calculate the maximum height reached by the rocket.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "A remote-controlled car's speed, \\( v \\) in meters per second, is modelled by \\( v = -t^3 + 6t^2 + 15t \\), where \\( t \\) is the time in seconds. Find the maximum speed of the car.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The displacement of a particle, \\( s \\) in meters, from a fixed point after \\( t \\) seconds is given by \\( s = \\frac{1}{3}t^3 - 4t^2 + 15t + 2 \\). Find the distance of the particle from the fixed point when it reaches its minimum displacement.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "A drone's altitude, \\( h \\) in meters, varies over time \\( t \\) in minutes according to the formula \\( h = -t^3 + 9t^2 + 48t + 20 \\). Calculate the maximum altitude the drone achieves.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "A ship's fuel consumption rate, \\( F \\), traveling at a speed of \\( v \\) knots, is given by \\( F = v^3 - 15v^2 + 48v + 20 \\). Calculate the speed that minimizes fuel consumption.",
+        topic: "Differentiation"
+    },
+
+    // Differentiation - Science & Real-World Contexts
+    {
+        type: 'text',
+        content: "The temperature of a chemical reaction, \\( T \\) in degrees Celsius, after \\( t \\) minutes is modelled by \\( T = t^3 - 9t^2 + 24t + 15 \\). Calculate the maximum temperature reached during the reaction.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The strength of a magnetic field, \\( M \\), at a distance \\( x \\) mm from a wire is given by \\( M = -2x^2 + 20x + 50 \\). Find the maximum strength of the magnetic field.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The population of a bacteria culture, \\( P \\) in thousands, after \\( t \\) hours is given by \\( P = -t^3 + 15t^2 + 33t + 100 \\). Calculate the maximum population size.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The power output of a solar panel, \\( W \\) in watts, over \\( t \\) hours of daylight is given by \\( W = -2t^3 + 30t^2 - 126t + 400 \\). Find the time \\( t \\) when the power output drops to its local minimum.",
+        topic: "Differentiation"
+    },
+    {
+        type: 'text',
+        content: "The spread area of an oil leak, \\( A \\) in square meters, \\( t \\) hours after the breach, is given by \\( A = 2t^3 - 21t^2 + 60t + 50 \\) before containment measures take effect. Calculate the maximum area the leak reaches before containment.",
+        topic: "Differentiation"
+    },
     {
         type: 'image',
         content: "images/triangle-q1.png", // Make sure this image exists in an 'images' folder
