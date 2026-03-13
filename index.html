@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Revision Sorter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div id="setup-screen" class="screen active">
+        <h1>Math Revision Sorter</h1>
+        <input type="text" id="search-bar" placeholder="Search topics...">
+        
+        <div id="topic-list" class="topic-grid">
+            </div>
+
+        <div class="controls">
+            <p><span id="selected-count">0</span>/10 Topics Selected</p>
+            <button id="start-btn" disabled>Start Game</button>
+        </div>
+    </div>
+
+    <div id="game-screen" class="screen">
+        <div class="game-header">
+            <h2>Question <span id="question-number">1</span>/15</h2>
+            <div class="score-board">Score: <span id="score">0</span></div>
+        </div>
+
+        <div class="question-container">
+            <div id="current-question" draggable="true"></div>
+        </div>
+
+        <div id="drop-zones" class="drop-grid">
+            </div>
+        
+        <button id="restart-btn" class="hidden">Play Again</button>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
