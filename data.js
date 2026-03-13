@@ -2,7 +2,7 @@
 const allTopics = [
     "Completing the Square",
     "Factorising Double Brackets",
-    "Factorising Double Brackets (AC Method)"
+    "Factorising Double Brackets (AC Method)",
     "Using the Quadratic Formula",
     "Differentiation",
     "Basic Laws of Indices",
@@ -427,7 +427,7 @@ const questionBank = [
     // Rationalising Denominators - Advanced / Mixed Surds (Challenge)
     {
         type: 'text',
-        content: "Show that $\\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sq,rt{2}}$ <br>can be written in the form $\\frac{a + b\\sqrt{10}}{c}$ <br>where $a, b,$ and $c$ are integers.",
+        content: "Show that $\\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}}$ <br>can be written in the form $\\frac{a + b\\sqrt{10}}{c}$ <br>where $a, b,$ and $c$ are integers.",
         topic: "Rationalising Denominators"
     },
     {
@@ -1020,7 +1020,7 @@ const questionBank = [
     // Changing the Subject - Squares & Roots
     {
         type: 'text',
-        content: "Make $r$ the subject of $A = \pi r^2$",
+        content: "Make $r$ the subject of $A = \\pi r^2$",
         topic: "Changing the Subject"
     },
     {
@@ -1035,12 +1035,12 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Make $l$ the subject of $T = 2\pi\sqrt{\frac{l}{g}}$",
+        content: "Make $l$ the subject of $T = 2\\pi\\sqrt{\\frac{l}{g}}$",
         topic: "Changing the Subject"
     },
     {
         type: 'text',
-        content: "Make $x$ the subject of $y = \sqrt{3x - 2}$",
+        content: "Make $x$ the subject of $y = \\sqrt{3x - 2}$",
         topic: "Changing the Subject"
     },
     {
@@ -1050,7 +1050,7 @@ const questionBank = [
     },
     {
         type: 'text',
-        content: "Make $r$ the subject of $V = \frac{4}{3}\pi r^3$",
+        content: "Make $r$ the subject of $V = \\frac{4}{3}\\pi r^3$",
         topic: "Changing the Subject"
     },
 
@@ -2293,7 +2293,7 @@ const questionBank = [
     {
         type: 'text',
         content: "Find the roots of \\( 2x^2 - 4x - 3 = 0 \\)",
-        topic: "Using the Quadratic Formula (AC Method)"
+        topic: "Using the Quadratic Formula"
     },
     // Factorising Double Brackets (AC Method) - Positive Terms
     {
