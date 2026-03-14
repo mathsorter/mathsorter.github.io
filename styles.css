@@ -29,6 +29,23 @@ h1, h2 {
     text-align: center;
 }
 
+/* Intro Description Box */
+.intro-box {
+    background-color: #e8f5e9; /* A very soft, welcoming pastel green */
+    border-left: 5px solid var(--primary); /* Ties into your primary green theme */
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.intro-box p {
+    margin: 0; /* Keeps the spacing tight and neat */
+}
+
 #search-bar {
     width: 100%;
     padding: 12px;
