@@ -183,3 +183,22 @@ button:disabled {
     display: block;
     margin: 30px auto 0 auto;
 }
+
+/* Screen Flash Animations */
+@keyframes flashCorrect {
+    0% { background-color: #d4edda; } /* Soft pastel green */
+    100% { background-color: var(--bg); } /* Fades back to your normal background */
+}
+
+@keyframes flashIncorrect {
+    0% { background-color: #f8d7da; } /* Soft pastel red */
+    100% { background-color: var(--bg); }
+}
+
+.flash-correct {
+    animation: flashCorrect 1s ease-out;
+}
+
+.flash-incorrect {
+    animation: flashIncorrect 1s ease-out;
+}
