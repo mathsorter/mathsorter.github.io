@@ -290,6 +290,9 @@ function loadNextQuestion() {
         headerH2.innerHTML = `Question <span id="question-number">${currentQuestionIndex + 1}</span>/${TOTAL_QUESTIONS}`;
     }
 
+    // ---> THESE TWO LINES WERE MISSING! <---
+    const q = currentGameQuestions[currentQuestionIndex];
+    const qElement = document.getElementById('current-question');
     
     qElement.innerHTML = ''; // Clear previous
 
@@ -305,12 +308,6 @@ function loadNextQuestion() {
             MathJax.typesetPromise([qElement]);
         }
     }
-
-    // Setup drag event for question
-    qElement.addEventListener('dragstart', (e) => {
-        // We just need to trigger the drag, validation happens via global state index
-        e.dataTransfer.setData('text/plain', 'dummy-data'); 
-    });
 }
 
 function handleDrop(droppedTopic) {
