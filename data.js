@@ -2588,6 +2588,82 @@ const questionBank = [
         content: "Expand: \\( -3p(p - 4) \\)",
         topic: "Expanding Single Brackets"
     },
+    // Completing the Square - Formal Function Notation
+    {
+        type: 'text',
+        content: "The function f is such that<br>\\( f(x) = 2x^2 + 12x + 7 \\)<br>Express \\( f(x) \\) in the form \\( a(x + b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function g is such that<br>\\( g(x) = 3x^2 - 18x + 14 \\)<br>Express \\( g(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function h is such that<br>\\( h(x) = 4x^2 + 16x - 5 \\)<br>Express \\( h(x) \\) in the form \\( p(x + q)^2 + r \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function f is such that<br>\\( f(x) = 5x^2 - 30x + 41 \\)<br>Express \\( f(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function g is such that<br>\\( g(x) = 2x^2 - 8x + 11 \\)<br>Express \\( g(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function h is such that<br>\\( h(x) = 3x^2 + 24x + 50 \\)<br>Express \\( h(x) \\) in the form \\( p(x + q)^2 + r \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function f is such that<br>\\( f(x) = 6x^2 - 12x + 1 \\)<br>Express \\( f(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function g is such that<br>\\( g(x) = 4x^2 - 24x + 27 \\)<br>Express \\( g(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function h is such that<br>\\( h(x) = 2x^2 + 20x + 45 \\)<br>Express \\( h(x) \\) in the form \\( a(x + b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function f is such that<br>\\( f(x) = -2x^2 + 16x - 20 \\)<br>Express \\( f(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function g is such that<br>\\( g(x) = -3x^2 - 12x + 5 \\)<br>Express \\( g(x) \\) in the form \\( a(x + b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function h is such that<br>\\( h(x) = 5x^2 + 10x - 4 \\)<br>Express \\( h(x) \\) in the form \\( p(x + q)^2 + r \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function f is such that<br>\\( f(x) = 7x^2 - 14x + 10 \\)<br>Express \\( f(x) \\) in the form \\( a(x - b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function g is such that<br>\\( g(x) = 2x^2 - 16x + 35 \\)<br>Express \\( g(x) \\) in the form \\( p(x - q)^2 + r \\)",
+        topic: "Completing the Square"
+    },
+    {
+        type: 'text',
+        content: "The function h is such that<br>\\( h(x) = -4x^2 - 24x - 30 \\)<br>Express \\( h(x) \\) in the form \\( a(x + b)^2 + c \\)",
+        topic: "Completing the Square"
+    },
     {
         type: 'text',
         content: "a) Rearrange \\( x^2 + 4x + 7 \\) into the form \\( (x+a)^2+b \\). <br>b) Hence, calculate the coordinates of the minimum point.",
