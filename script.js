@@ -257,11 +257,21 @@ function loadNextQuestion() {
 
 function handleDrop(droppedTopic) {
     const actualTopic = currentGameQuestions[currentQuestionIndex].topic;
+    const body = document.body;
     
+    // 1. Remove previous flash classes to reset the animation
+    body.classList.remove('flash-correct', 'flash-incorrect');
+    
+    // 2. Force a browser "reflow" (this is a magic trick that allows the animation to instantly restart if they answer quickly)
+    void body.offsetWidth; 
+    
+    // 3. Check the answer and trigger the flash
     if (droppedTopic === actualTopic) {
         score++;
+        body.classList.add('flash-correct');
     } else {
         score--;
+        body.classList.add('flash-incorrect');
         // Save the mistake for the end screen!
         incorrectQuestions.push({
             question: currentGameQuestions[currentQuestionIndex],
