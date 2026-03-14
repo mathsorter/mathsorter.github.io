@@ -16,8 +16,13 @@ const allTopics = [
     "Non-linear Simultaneous Equations",
     "Changing the Subject",
     "Difference of Two Squares",
+    "Triple Brackets",
+    "Solving by Factorising (AC Method)",
+    "Solving by Factorising",
     "Fractional & Negative Indices",
     "Expanding Single Brackets",
+    "Expanding Multiple Single Brackets",
+    "Expanding Double Brackets",
     "Multiplying/Dividing Algebraic Fractions",
     "Pythagoras Theorem"
 ];
@@ -25,7 +30,614 @@ const allTopics = [
 // Add your questions here. 
 // type can be 'text' (which includes LaTeX) or 'image'
 const questionBank = [
-    // Non-linear Simultaneous Equations - Parabola & Line (y = ...)
+    // Expanding Double Brackets - One Non-Monic Bracket (a >= 2)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2x+3)(x+5)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((3y-1)(y+6)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((4m+5)(m-2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((5p-3)(p-4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2a+7)(a-3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((8w+3)(w-2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+
+    // Expanding Double Brackets - Both Non-Monic Brackets (Advanced)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2x+1)(2x+5)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((3y-2)(2y+3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((4m+1)(3m-2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((5k-4)(2k-1)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((3n+5)(3n-4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((6x-1)(2x+3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2p+7)(4p-3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((7a-2)(2a-5)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((3x-5)(5x+2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((x+2)(x+5)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((x+3)(x+4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((y+6)(y+2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((m+1)(m+7)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((a+4)(a+4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+
+    // Expanding Double Brackets - Mixed Signs
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((x+5)(x-2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((y-4)(y+3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((p+7)(p-5)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((k-6)(k+2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((w+1)(w-8)\\)",
+        topic: "Expanding Double Brackets"
+    },
+
+    // Expanding Double Brackets - Both Negative
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((x-3)(x-4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((y-5)(y-6)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((m-2)(m-7)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((a-1)(a-9)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((p-8)(p-8)\\)",
+        topic: "Expanding Double Brackets"
+    },
+
+    // Expanding Double Brackets - Non-Monic (Advanced)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2x+1)(x+3)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((3y-2)(y+4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((4m+3)(2m-1)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((5p-2)(3p-4)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\((2x+5)(3x-2)\\)",
+        topic: "Expanding Double Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 3(x + 2) + 2(x + 5) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 4(y - 3) + 3(2y + 1) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 5(2m + 1) + 2(m - 4) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2(3p - 4) + 4(p - 2) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 6(a + 3) + 3(2a - 5) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+
+    // Expanding Multiple Single Brackets - Negative Link (Positive terms inside)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 4(x + 5) - 2(x + 3) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 5(2k + 1) - 3(k + 4) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 7(w + 2) - 4(2w + 1) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 3(3t + 4) - 2(t + 5) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 8(n + 1) - 5(2n + 3) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+
+    // Expanding Multiple Single Brackets - Negative Link (Negative terms inside - The tricky ones!)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 3(x + 7) - 2(6x - 2) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 5(y - 2) - 3(y - 4) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 4(2m + 3) - 5(m - 2) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 6(p - 1) - 2(3p - 5) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2(4a + 5) - 3(2a - 7) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+
+    // Expanding Multiple Single Brackets - Mixed Higher Coefficients
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 3(2q - 5) + 4(3q - 1) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 7(2x - 3) - 4(x - 5) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 5(3y + 2) - 6(2y - 3) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2(5k - 2) + 3(2k - 7) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 4(3w - 4) - 2(5w - 6) \\)",
+        topic: "Expanding Multiple Single Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (x+2)(x+3)(x+4) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (x-1)(x+5)(x-2) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (x+3)(x-3)(x+1) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (x-2)(x-4)(x-5) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (x+1)(x-6)(x+5) \\)",
+        topic: "Triple Brackets"
+    },
+
+    // Triple Brackets - Monic Cubics with No Constant (a=1, d=0)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(x+4)(x-2) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(x-3)(x-5) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(x+1)(x+7) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(x-4)(x+4) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(x+6)(x-2) \\)",
+        topic: "Triple Brackets"
+    },
+
+    // Triple Brackets - Non-Monic Cubics (a=2, d!=0)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (2x+1)(x+2)(x+3) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (2x-3)(x-1)(x+4) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (2x+5)(x-2)(x-3) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (2x-1)(x+4)(x-4) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( (2x+3)(x+1)(x-5) \\)",
+        topic: "Triple Brackets"
+    },
+
+    // Triple Brackets - Non-Monic Cubics with No Constant (a=2, d=0)
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2x(x+3)(x-4) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(2x+1)(x-5) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2x(x-2)(x-6) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( x(2x-3)(x+2) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Expand and simplify: \\( 2x(x+5)(x+1) \\)",
+        topic: "Triple Brackets"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 5x + 6 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 5x + 4 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 7x + 10 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 9x + 18 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 10x + 16 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+
+    // Solving by Factorising - Both Roots Positive (Negative Middle Term)
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 6x + 8 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 8x + 15 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 7x + 6 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 8x + 16 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 9x + 14 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+
+    // Solving by Factorising - Mixed Signs
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 3x - 10 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 3x - 10 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 2x - 24 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 - 2x - 24 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 4x - 21 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+
+    // Solving by Factorising - Larger Numbers & Different Variables
+    {
+        type: 'text',
+        content: "Solve: \\( y^2 - 5y - 24 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( m^2 + 7m - 18 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( p^2 - 6p - 40 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( t^2 - 12t + 27 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( w^2 + 13w + 22 = 0 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 + 5x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 + 5x + 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 + 7x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 + 5x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 4x^2 + 9x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+
+    // Solving by Factorising (AC Method) - Both Roots Positive
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 - 5x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 - 5x + 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 - 7x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 - 5x + 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 4x^2 - 13x + 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+
+    // Solving by Factorising (AC Method) - Mixed Signs (One Positive, One Negative Root)
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 + 5x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 2x^2 - 5x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 + 4x - 4 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 3x^2 - 4x - 4 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 5x^2 - 3x - 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 5x^2 + 3x - 2 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+
+    // Solving by Factorising (AC Method) - Advanced / Composite Leading Coefficients
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 4x^2 + 4x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 6x^2 - 7x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 6x^2 + 7x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve by factorising: \\( 8x^2 + 2x - 3 = 0 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
     {
         type: 'text',
         content: "Solve the simultaneous equations:<br>\\( y = x^2 \\)<br>\\( y = 2x + 3 \\)",
