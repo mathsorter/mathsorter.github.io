@@ -202,3 +202,49 @@ button:disabled {
 .flash-incorrect {
     animation: flashIncorrect 1s ease-out;
 }
+
+/* Survivor Mode Styles */
+.survivor-btn {
+    background-color: #9c27b0; /* Purple button for contrast */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.survivor-end-bg {
+    background-color: #e6e6fa !important; /* Soft pastel violet */
+    transition: background-color 0.5s ease;
+}
+
+.survivor-end-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.survivor-end-score {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4a148c;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.survivor-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+    .button-group, .survivor-buttons {
+        flex-direction: column;
+    }
+}
