@@ -426,6 +426,82 @@ const questionBank = [
         content: "Expand and simplify: \\( 2x(x+5)(x+1) \\)",
         topic: "Triple Brackets"
     },
+    // Solving by Factorising - Rearranging Required
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 = 5x - 6 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( y^2 + 3y = 4 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( t^2 - 10 = 3t \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( d^2 = -6d - 9 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( n^2 = 5n + 6 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 + 14 = 9x \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( y^2 + 9y = -20 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( t^2 = 5t + 24 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( d^2 + 16 = 8d \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( n^2 + 4n = 12 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( x^2 = 7x + 18 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( y^2 - 10 = 9y \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( t^2 + 9t = -14 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( d^2 - 8d = -15 \\)",
+        topic: "Solving by Factorising"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( n^2 - 32 = -4n \\)",
+        topic: "Solving by Factorising"
+    },
     {
         type: 'text',
         content: "Solve: \\( x^2 + 5x + 6 = 0 \\)",
@@ -531,6 +607,82 @@ const questionBank = [
         type: 'text',
         content: "Solve: \\( w^2 + 13w + 22 = 0 \\)",
         topic: "Solving by Factorising"
+    },
+    // Solving by Factorising (AC Method) - Rearranging Required
+    {
+        type: 'text',
+        content: "Solve: \\( 2x^2 = -5x - 3 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 3y^2 + 7y = -2 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 2t^2 = 5t + 3 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 5d^2 = -13d + 6 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 3n^2 + 8 = 10n \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 4x^2 = 12x - 5 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 6y^2 - 3 = -7y \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 2t^2 + 7t = -6 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 4d^2 = -8d - 3 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 5n^2 - 6 = 13n \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 3x^2 = 5x + 2 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 2y^2 + 5 = 7y \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 6t^2 = 11t + 10 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 8d^2 + 10d = 3 \\)",
+        topic: "Solving by Factorising (AC Method)"
+    },
+    {
+        type: 'text',
+        content: "Solve: \\( 4n^2 = 3 - 4n \\)",
+        topic: "Solving by Factorising (AC Method)"
     },
     {
         type: 'text',
@@ -2154,6 +2306,82 @@ const questionBank = [
         type: 'text',
         content: "Simplify: \\( \\frac{16x^7 y^6}{2x^3 y^2 \\times 4x y} \\)",
         topic: "Basic Laws of Indices"
+    },
+    // Using the Quadratic Formula - Rearranging Required
+    {
+        type: 'text',
+        content: "Solve \\( x^2 = 5x + 2 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( y^2 + 3y = 5 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( t^2 - 7 = 4t \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( d^2 = -6d - 2 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( n^2 + 3 = 7n \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 2x^2 = 5x + 4 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 3y^2 + 8y = 2 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 4t^2 - 1 = 6t \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 5d^2 = -7d + 5 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 2n^2 + 5 = 9n \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 3x^2 = 7 - 5x \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 4y^2 - y = 6 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 2t^2 + 11t = -3 \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 5d^2 - 2 = 8d \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
+    },
+    {
+        type: 'text',
+        content: "Solve \\( 6n^2 = 3 - 5n \\) leaving your answers to 3sf.",
+        topic: "Using the Quadratic Formula"
     },
     {
         type: 'text',
