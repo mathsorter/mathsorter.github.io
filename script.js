@@ -1,4 +1,5 @@
 // State variables
+let isSurvivorMode = false;
 let selectedTopics = [];
 let incorrectQuestions = [];
 let currentGameQuestions = [];
@@ -30,6 +31,18 @@ function initSetup() {
     document.getElementById('restart-btn').addEventListener('click', resetToSetup);
 
     const qCard = document.getElementById('current-question');
+
+    document.getElementById('start-survivor-btn').addEventListener('click', startSurvivorMode);
+    
+    document.getElementById('survivor-back-btn').addEventListener('click', () => {
+        document.body.classList.remove('survivor-end-bg');
+        resetToSetup();
+    });
+    
+    document.getElementById('survivor-repeat-btn').addEventListener('click', () => {
+        document.body.classList.remove('survivor-end-bg');
+        startSurvivorMode();
+    });
 
     // === DESKTOP DRAG EVENT ===
     qCard.addEventListener('dragstart', (e) => {
@@ -153,6 +166,7 @@ function shuffleArray(array) {
 
 // Updated Game Logic
 function startGame() {
+    isSurvivorMode = false;
     // Filter question bank based on selected topics
     let availableQuestions = questionBank.filter(q => selectedTopics.includes(q.topic));
     
@@ -193,6 +207,39 @@ function startGame() {
     loadNextQuestion();
 }
 
+// New Survivor Mode Logic
+function startSurvivorMode() {
+    isSurvivorMode = true;
+    
+    // 1. Pick 10 random topics from the master list
+    let shuffledAll = shuffleArray([...allTopics]);
+    selectedTopics = shuffledAll.slice(0, 10);
+    
+    // 2. Filter and shuffle all possible questions for those topics
+    let availableQuestions = questionBank.filter(q => selectedTopics.includes(q.topic));
+    currentGameQuestions = shuffleArray(availableQuestions);
+    
+    // 3. Reset Stats
+    score = 0;
+    currentQuestionIndex = 0;
+    document.getElementById('score').textContent = score;
+    document.getElementById('restart-btn').classList.add('hidden');
+    
+    // 4. Switch screens
+    document.getElementById('setup-screen').classList.remove('active');
+    document.getElementById('setup-screen').style.display = 'none';
+    document.getElementById('survivor-end-screen').classList.remove('active');
+    document.getElementById('survivor-end-screen').style.display = 'none';
+    
+    document.getElementById('game-screen').classList.add('active');
+    document.getElementById('game-screen').style.display = 'block';
+    
+    document.getElementById('current-question').draggable = true;
+    
+    setupDropZones();
+    loadNextQuestion();
+}
+
 function setupDropZones() {
     const dropZonesDiv = document.getElementById('drop-zones');
     dropZonesDiv.innerHTML = '';
@@ -224,14 +271,25 @@ function setupDropZones() {
 }
 
 function loadNextQuestion() {
-    if (currentQuestionIndex >= TOTAL_QUESTIONS) {
-        endGame();
+    const maxQuestions = isSurvivorMode ? currentGameQuestions.length : TOTAL_QUESTIONS;
+    
+    if (currentQuestionIndex >= maxQuestions) {
+        if (isSurvivorMode) {
+            endSurvivorGame(); // They miraculously beat the whole database!
+        } else {
+            endGame();
+        }
         return;
     }
 
-    document.getElementById('question-number').textContent = currentQuestionIndex + 1;
-    const q = currentGameQuestions[currentQuestionIndex];
-    const qElement = document.getElementById('current-question');
+    // Update Header Text cleanly based on mode
+    const headerH2 = document.querySelector('.game-header h2');
+    if (isSurvivorMode) {
+        headerH2.innerHTML = `Question <span id="question-number">${currentQuestionIndex + 1}</span>`;
+    } else {
+        headerH2.innerHTML = `Question <span id="question-number">${currentQuestionIndex + 1}</span>/${TOTAL_QUESTIONS}`;
+    }
+
     
     qElement.innerHTML = ''; // Clear previous
 
@@ -259,30 +317,34 @@ function handleDrop(droppedTopic) {
     const actualTopic = currentGameQuestions[currentQuestionIndex].topic;
     const body = document.body;
     
-    // 1. Remove previous flash classes to reset the animation
     body.classList.remove('flash-correct', 'flash-incorrect');
-    
-    // 2. Force a browser "reflow" (this is a magic trick that allows the animation to instantly restart if they answer quickly)
     void body.offsetWidth; 
     
-    // 3. Check the answer and trigger the flash
     if (droppedTopic === actualTopic) {
         score++;
         body.classList.add('flash-correct');
+        document.getElementById('score').textContent = score;
+        currentQuestionIndex++;
+        loadNextQuestion();
     } else {
-        score--;
         body.classList.add('flash-incorrect');
-        // Save the mistake for the end screen!
-        incorrectQuestions.push({
-            question: currentGameQuestions[currentQuestionIndex],
-            guessed: droppedTopic,
-            correct: actualTopic
-        });
+        
+        if (isSurvivorMode) {
+            // SUDDEN DEATH
+            endSurvivorGame();
+        } else {
+            // Normal Mode Penalty
+            score--;
+            document.getElementById('score').textContent = score;
+            incorrectQuestions.push({
+                question: currentGameQuestions[currentQuestionIndex],
+                guessed: droppedTopic,
+                correct: actualTopic
+            });
+            currentQuestionIndex++;
+            loadNextQuestion();
+        }
     }
-    
-    document.getElementById('score').textContent = score;
-    currentQuestionIndex++;
-    loadNextQuestion();
 }
 
 function endGame() {
@@ -325,10 +387,24 @@ function endGame() {
     }
 }
 
+function endSurvivorGame() {
+    document.getElementById('game-screen').classList.remove('active');
+    document.getElementById('game-screen').style.display = 'none';
+    
+    const survivorScreen = document.getElementById('survivor-end-screen');
+    survivorScreen.classList.add('active');
+    survivorScreen.style.display = 'block';
+    
+    document.getElementById('survivor-final-score').textContent = score;
+    document.body.classList.add('survivor-end-bg'); // Triggers the Violet background!
+}
+
 function resetToSetup() {
     document.getElementById('game-screen').style.display = 'none';
+    document.getElementById('survivor-end-screen').style.display = 'none';
     document.getElementById('setup-screen').style.display = 'block';
     document.getElementById('current-question').draggable = true;
+    document.body.classList.remove('survivor-end-bg');
 }
 
 // Start app
