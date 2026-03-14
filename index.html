@@ -18,7 +18,10 @@
 
         <div class="controls">
             <p><span id="selected-count">0</span>/10 Topics Selected</p>
-            <button id="start-btn" disabled>Start Game</button>
+            <div class="button-group">
+                <button id="start-btn" disabled>Start Normal Game</button>
+                <button id="start-survivor-btn" class="survivor-btn">Play Survivor Mode</button>
+            </div>
         </div>
     </div>
 
@@ -37,7 +40,20 @@
         
         <button id="restart-btn" class="hidden">Play Again</button>
     </div>
-
+    
+    <div id="survivor-end-screen" class="screen">
+        <div class="survivor-end-container">
+            <h2>Survivor Mode Over!</h2>
+            <p>You survived for...</p>
+            <div class="survivor-end-score"><span id="survivor-final-score">0</span></div>
+            <p>questions</p>
+            <div class="survivor-buttons">
+                <button id="survivor-repeat-btn">Repeat (New Topics)</button>
+                <button id="survivor-back-btn">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
