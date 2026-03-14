@@ -397,9 +397,27 @@ function endSurvivorGame() {
 }
 
 function resetToSetup() {
+    // 1. Completely clear the selected topics array
+    selectedTopics = [];
+    isSurvivorMode = false;
+
+    // 2. Reset the Setup UI (clear search bar, uncheck boxes, update counter)
+    document.getElementById('search-bar').value = '';
+    renderTopics(allTopics); 
+    updateStartButton(); 
+
+    // 3. Switch the screens back to default
+    document.getElementById('game-screen').classList.remove('active');
     document.getElementById('game-screen').style.display = 'none';
+    
+    document.getElementById('survivor-end-screen').classList.remove('active');
     document.getElementById('survivor-end-screen').style.display = 'none';
-    document.getElementById('setup-screen').style.display = 'block';
+    
+    const setupScreen = document.getElementById('setup-screen');
+    setupScreen.classList.add('active');
+    setupScreen.style.display = 'block';
+    
+    // 4. Reset card dragging and background colors
     document.getElementById('current-question').draggable = true;
     document.body.classList.remove('survivor-end-bg');
 }
