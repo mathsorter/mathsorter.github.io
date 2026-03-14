@@ -13,6 +13,10 @@ const startBtn = document.getElementById('start-btn');
 const selectedCountSpan = document.getElementById('selected-count');
 
 // Initialize Topics on Setup Screen
+let initialX = 0;
+let initialY = 0;
+
+// Initialize Topics on Setup Screen
 function initSetup() {
     renderTopics(allTopics);
     
@@ -24,8 +28,75 @@ function initSetup() {
 
     startBtn.addEventListener('click', startGame);
     document.getElementById('restart-btn').addEventListener('click', resetToSetup);
-}
 
+    const qCard = document.getElementById('current-question');
+
+    // === DESKTOP DRAG EVENT ===
+    qCard.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', 'dummy-data'); 
+    });
+
+    // === MOBILE TOUCH EVENTS ===
+    qCard.addEventListener('touchstart', (e) => {
+        initialX = e.touches[0].clientX;
+        initialY = e.touches[0].clientY;
+        qCard.style.transition = 'none'; // Disable CSS transitions so it instantly tracks the finger
+        qCard.style.position = 'relative';
+        qCard.style.zIndex = '1000'; // Bring it to the front
+    }, { passive: false });
+
+    qCard.addEventListener('touchmove', (e) => {
+        e.preventDefault(); // Crucial: Stops the screen from scrolling down
+        
+        const touch = e.touches[0];
+        const moveX = touch.clientX - initialX;
+        const moveY = touch.clientY - initialY;
+        
+        // Physically move the card
+        qCard.style.transform = `translate(${moveX}px, ${moveY}px)`;
+
+        // Highlight the drop zone underneath the finger
+        qCard.style.visibility = 'hidden'; // Briefly hide card to peek at what is underneath
+        const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY);
+        qCard.style.visibility = 'visible'; // Unhide instantly
+
+        // Remove highlight from all zones first
+        document.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('drag-over'));
+        
+        // Add highlight if hovering over a valid zone
+        if (elementBelow) {
+            const zone = elementBelow.closest('.drop-zone');
+            if (zone) {
+                zone.classList.add('drag-over');
+            }
+        }
+    }, { passive: false });
+
+    qCard.addEventListener('touchend', (e) => {
+        // Snap the card back to the center smoothly
+        qCard.style.transition = 'transform 0.3s ease'; 
+        qCard.style.transform = 'translate(0px, 0px)';
+        qCard.style.zIndex = '1';
+
+        const touch = e.changedTouches[0];
+        
+        // Find exactly where the finger was lifted
+        qCard.style.visibility = 'hidden';
+        const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY);
+        qCard.style.visibility = 'visible';
+
+        // Clear all visual highlights
+        document.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('drag-over'));
+
+        // If dropped over a valid zone, trigger the game logic!
+        if (elementBelow) {
+            const zone = elementBelow.closest('.drop-zone');
+            if (zone) {
+                handleDrop(zone.dataset.topic);
+            }
+        }
+    });
+}
 function renderTopics(topicsToRender) {
     topicListDiv.innerHTML = '';
     topicsToRender.forEach(topic => {
