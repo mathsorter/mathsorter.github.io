@@ -108,7 +108,7 @@ button:disabled {
 }
 
 #current-question {
-    background: white;
+    background: var(--card); /* <--- CHANGED THIS from 'white' to var(--card) */
     padding: 30px;
     font-size: 24px;
     border: 2px dashed var(--primary);
