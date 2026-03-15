@@ -329,3 +329,20 @@ body.dark-mode .review-list li {
     background: var(--card);
     color: var(--text);
 }
+
+/* 1. Force the question card to strictly obey dark mode */
+body.dark-mode #current-question {
+    background-color: var(--card);
+    color: var(--text);
+}
+
+/* 2. Magic trick: Invert image colors in dark mode! 
+   This turns white image backgrounds black, and black math text white. */
+body.dark-mode .question-image {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* 3. Apply the same magic trick to the images in the end-screen review list */
+body.dark-mode .review-list img {
+    filter: invert(1) hue-rotate(180deg);
+}
