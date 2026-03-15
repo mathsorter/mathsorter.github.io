@@ -267,21 +267,34 @@ button:disabled {
 }
 
 /* Dark Mode Toggle Button */
+/* Dark Mode Toggle Button Fixed */
 .dark-mode-toggle {
     position: absolute;
     top: 15px;
     right: 20px;
-    background: none;
+    background-color: #555555; /* Dark grey background */
     border: none;
-    font-size: 28px;
+    font-size: 24px;
     cursor: pointer;
-    padding: 5px;
-    transition: transform 0.2s ease;
-    z-index: 2000; /* Keeps it on top of everything */
+    width: 45px;          /* Forces a small, fixed width */
+    height: 45px;         /* Forces a small, fixed height */
+    border-radius: 50%;   /* Makes it a perfect circle */
+    display: flex;        /* Centers the emoji perfectly inside */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    z-index: 2000;
 }
 
 .dark-mode-toggle:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    background-color: #333333; /* Slightly darker grey on hover */
+}
+
+/* Optional: Keep the button grey even in dark mode */
+body.dark-mode .dark-mode-toggle {
+    background-color: #333333; 
 }
 
 /* Dark Mode Color Overrides */
