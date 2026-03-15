@@ -445,3 +445,17 @@ function resetToSetup() {
 
 // Start app
 initSetup();
+
+// Dark Mode Logic
+const darkModeBtn = document.getElementById('dark-mode-btn');
+
+darkModeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Swap the icon between a Moon and a Sun
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeBtn.textContent = '☀️';
+    } else {
+        darkModeBtn.textContent = '🌙';
+    }
+});
