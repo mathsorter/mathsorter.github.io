@@ -50,33 +50,34 @@ function initSetup() {
     });
 
     // === MOBILE TOUCH EVENTS ===
+    // === MOBILE TOUCH EVENTS ===
     qCard.addEventListener('touchstart', (e) => {
+        if (!qCard.draggable) return; // <--- ADD THIS: Ignore if game is over
+        
         initialX = e.touches[0].clientX;
         initialY = e.touches[0].clientY;
-        qCard.style.transition = 'none'; // Disable CSS transitions so it instantly tracks the finger
+        qCard.style.transition = 'none'; 
         qCard.style.position = 'relative';
-        qCard.style.zIndex = '1000'; // Bring it to the front
+        qCard.style.zIndex = '1000'; 
     }, { passive: false });
 
     qCard.addEventListener('touchmove', (e) => {
-        e.preventDefault(); // Crucial: Stops the screen from scrolling down
+        if (!qCard.draggable) return; // <--- ADD THIS: Ignore if game is over
+        
+        e.preventDefault(); 
         
         const touch = e.touches[0];
         const moveX = touch.clientX - initialX;
         const moveY = touch.clientY - initialY;
         
-        // Physically move the card
         qCard.style.transform = `translate(${moveX}px, ${moveY}px)`;
 
-        // Highlight the drop zone underneath the finger
-        qCard.style.visibility = 'hidden'; // Briefly hide card to peek at what is underneath
+        qCard.style.visibility = 'hidden'; 
         const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY);
-        qCard.style.visibility = 'visible'; // Unhide instantly
+        qCard.style.visibility = 'visible'; 
 
-        // Remove highlight from all zones first
         document.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('drag-over'));
         
-        // Add highlight if hovering over a valid zone
         if (elementBelow) {
             const zone = elementBelow.closest('.drop-zone');
             if (zone) {
@@ -86,22 +87,20 @@ function initSetup() {
     }, { passive: false });
 
     qCard.addEventListener('touchend', (e) => {
-        // Snap the card back to the center smoothly
+        if (!qCard.draggable) return; // <--- ADD THIS: Ignore if game is over
+        
         qCard.style.transition = 'transform 0.3s ease'; 
         qCard.style.transform = 'translate(0px, 0px)';
         qCard.style.zIndex = '1';
 
         const touch = e.changedTouches[0];
         
-        // Find exactly where the finger was lifted
         qCard.style.visibility = 'hidden';
         const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY);
         qCard.style.visibility = 'visible';
 
-        // Clear all visual highlights
         document.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('drag-over'));
 
-        // If dropped over a valid zone, trigger the game logic!
         if (elementBelow) {
             const zone = elementBelow.closest('.drop-zone');
             if (zone) {
@@ -109,6 +108,7 @@ function initSetup() {
             }
         }
     });
+    
 }
 function renderTopics(topicsToRender) {
     topicListDiv.innerHTML = '';
@@ -203,6 +203,12 @@ function startGame() {
     document.getElementById('game-screen').style.display = 'block';
     document.getElementById('setup-screen').style.display = 'none';
 
+    // Add this to the bottom of startGame(), startSurvivorMode(), and resetToSetup()
+    const qElement = document.getElementById('current-question');
+    qElement.draggable = true;
+    qElement.style.touchAction = 'none'; // <--- Locks scrolling for dragging again
+    qElement.style.cursor = 'grab';      // <--- Brings back the grab hand icon
+
     setupDropZones();
     loadNextQuestion();
 }
@@ -235,6 +241,12 @@ function startSurvivorMode() {
     document.getElementById('game-screen').style.display = 'block';
     
     document.getElementById('current-question').draggable = true;
+
+    // Add this to the bottom of startGame(), startSurvivorMode(), and resetToSetup()
+    const qElement = document.getElementById('current-question');
+    qElement.draggable = true;
+    qElement.style.touchAction = 'none'; // <--- Locks scrolling for dragging again
+    qElement.style.cursor = 'grab';      // <--- Brings back the grab hand icon
     
     setupDropZones();
     loadNextQuestion();
@@ -347,6 +359,8 @@ function handleDrop(droppedTopic) {
 function endGame() {
     const qElement = document.getElementById('current-question');
     qElement.draggable = false;
+    qElement.style.touchAction = 'auto'; // <--- ADD THIS: Re-enables mobile scrolling!
+    qElement.style.cursor = 'default';
     document.getElementById('drop-zones').innerHTML = '';
     document.getElementById('restart-btn').classList.remove('hidden');
 
@@ -419,6 +433,13 @@ function resetToSetup() {
     
     // 4. Reset card dragging and background colors
     document.getElementById('current-question').draggable = true;
+
+    // Add this to the bottom of startGame(), startSurvivorMode(), and resetToSetup()
+    const qElement = document.getElementById('current-question');
+    qElement.draggable = true;
+    qElement.style.touchAction = 'none'; // <--- Locks scrolling for dragging again
+    qElement.style.cursor = 'grab';      // <--- Brings back the grab hand icon
+    
     document.body.classList.remove('survivor-end-bg');
 }
 
