@@ -265,3 +265,54 @@ button:disabled {
         flex-direction: column;
     }
 }
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s ease;
+    z-index: 2000; /* Keeps it on top of everything */
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.2);
+}
+
+/* Dark Mode Color Overrides */
+body.dark-mode {
+    --bg: #000000; /* Pure black background */
+    --text: #ffffff; /* Pure white text */
+    --card: #1a1a1a; /* Very dark grey for cards so they don't blend into the background */
+}
+
+/* Dark Mode specific tweaks */
+body.dark-mode .intro-box {
+    background-color: #112a15; /* Darker green for the intro box */
+    color: #eeeeee;
+}
+
+body.dark-mode #search-bar {
+    background-color: var(--card);
+    color: var(--text);
+    border-color: #444;
+}
+
+body.dark-mode .drop-zone {
+    background: #2a2a2a; /* Darker drop zones */
+    color: var(--text);
+}
+
+body.dark-mode .drop-zone.drag-over {
+    background: #334d35; /* Dark green highlight when hovering */
+}
+
+body.dark-mode .review-list li {
+    background: var(--card);
+    color: var(--text);
+}
